@@ -8,6 +8,7 @@ import {
   ModalBody,
   ModalContent,
   ModalHeader,
+  ScrollShadow,
   Select,
   SelectItem,
 } from "@heroui/react";
@@ -44,6 +45,17 @@ function App() {
       ];
     }
   }, []);
+  const [favouriteShows, setFavouriteShows] = useState(() => {
+    try {
+      const storedFavourites = localStorage.getItem("favouriteShows");
+      if (storedFavourites) {
+        return JSON.parse(storedFavourites) as string[];
+      }
+      return [];
+    } catch {
+      return [];
+    }
+  });
   const [filters, setFilters] = useState<FilterType[]>(defaultFilters);
 
   useEffect(() => {
@@ -125,6 +137,29 @@ function App() {
     [shows]
   );
 
+  const addFavourite = useCallback(
+    (show: Show) => {
+      const favourites = [...favouriteShows];
+      if (!favourites.includes(show.title)) {
+        favourites.push(show.title);
+        localStorage.setItem("favouriteShows", JSON.stringify(favourites));
+        setFavouriteShows(favourites);
+      }
+    },
+    [favouriteShows]
+  );
+
+  const removeFavourite = useCallback(
+    (show: Show) => {
+      const favourites = favouriteShows.filter(
+        (favourite) => favourite !== show.title
+      );
+      localStorage.setItem("favouriteShows", JSON.stringify(favourites));
+      setFavouriteShows(favourites);
+    },
+    [favouriteShows]
+  );
+
   useEffect(() => {
     window.addEventListener("popstate", updateShowModal);
 
@@ -163,13 +198,54 @@ function App() {
         textAlign: "center",
       }}
     >
+      {favouriteShows.length > 0 && (
+        <>
+          <div
+            className="text-white text-left w-full box-border text-2xl"
+            style={{ padding: "10px" }}
+          >
+            Favourite Shows <br />
+          </div>
+          <div
+            className="text-white text-left w-full box-border text-2xl whitespace-nowrap overflow-x-auto"
+            style={{ padding: "10px" }}
+          >
+            <ScrollShadow
+              className="w-full h-[400px]"
+              orientation="horizontal"
+              size={50}
+            >
+              {favouriteShows.reverse().map((title) => {
+                const show = shows?.find((s) => s.title === title);
+                if (!show) return null;
+
+                return (
+                  <ShowCard
+                    key={show.title}
+                    addFavourite={addFavourite}
+                    favouriteShows={favouriteShows}
+                    removeFavourite={removeFavourite}
+                    show={show}
+                    onClick={() => {
+                      window.history.pushState({}, "", `?modal=${show.title}`);
+                      openShowModal(show);
+                    }}
+                  />
+                );
+              })}
+              <div className="inline-block" style={{ width: "30px" }} />
+            </ScrollShadow>
+          </div>
+        </>
+      )}
+
       <div
         style={{
           position: "sticky",
           top: "0",
           left: "0",
           zIndex: 49,
-          backgroundColor: "#141414aa",
+          backgroundColor: "#141414ff",
         }}
       >
         {
@@ -189,6 +265,9 @@ function App() {
           return (
             <ShowCard
               key={metadata.title}
+              addFavourite={addFavourite}
+              favouriteShows={favouriteShows}
+              removeFavourite={removeFavourite}
               show={metadata}
               onClick={() => {
                 window.history.pushState({}, "", `?modal=${metadata.title}`);
@@ -306,6 +385,7 @@ function App() {
                       return (
                         <ShowCard
                           key={ep.id}
+                          isShow={false}
                           show={ep}
                           onClick={() => {
                             window.open(

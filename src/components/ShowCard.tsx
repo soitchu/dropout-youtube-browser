@@ -1,13 +1,30 @@
 import type { Episode, Show } from "../types";
 
 import { useMemo } from "react";
-import { Card, CardBody, Image, CardFooter, PressEvent } from "@heroui/react";
+import {
+  Card,
+  CardBody,
+  Image,
+  CardFooter,
+  PressEvent,
+  Button,
+} from "@heroui/react";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 
 export default function ShowCard({
   show,
+  isShow = true,
+  favouriteShows,
+  addFavourite,
+  removeFavourite,
   onClick,
 }: {
   show: Show | Episode;
+  isShow?: boolean;
+  favouriteShows?: string[];
+  addFavourite?: (show: Show) => void;
+  removeFavourite?: (show: Show) => void;
   onClick: Function;
 }) {
   const lastUpdateAt = useMemo(() => {
@@ -71,6 +88,26 @@ export default function ShowCard({
               {episodeLabel}
             </div>
           )}
+
+          {isShow && (
+            <Button
+              className="absolute top-2 right-2 bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md min-w-[45px]"
+              onPress={() => {
+                if (favouriteShows?.includes(show.title)) {
+                  removeFavourite?.(show as Show);
+                } else {
+                  addFavourite?.(show as Show);
+                }
+              }}
+            >
+              {favouriteShows?.includes(show.title) ? (
+                <FavoriteIcon />
+              ) : (
+                <FavoriteBorderOutlinedIcon />
+              )}
+            </Button>
+          )}
+
           <Image
             alt={show.title}
             className="w-full object-cover h-[140px]"
