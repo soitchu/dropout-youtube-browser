@@ -18,6 +18,7 @@ import showJSON from "./shows.json";
 import { EpisodeType, type Show, type ShowArray } from "./types";
 import ShowCard from "./components/ShowCard";
 import Filters, { FilterType } from "./components/Filters";
+import DropoutStorage from "./storage";
 
 function App() {
   const [shows, setShows] = useState<ShowArray | null>(null);
@@ -47,17 +48,8 @@ function App() {
       ];
     }
   }, []);
-  const [favouriteShows, setFavouriteShows] = useState(() => {
-    try {
-      const storedFavourites = localStorage.getItem("favouriteShows");
-      if (storedFavourites) {
-        return JSON.parse(storedFavourites) as string[];
-      }
-      return [];
-    } catch {
-      return [];
-    }
-  });
+  const [favouriteShows, setFavouriteShows] = useState(new Set<string>());
+  const [watchedEpisodes, setWatchedEpisodes] = useState(new Set<string>());
   const [favouriteDrawerOpen, setFavouriteDrawerOpen] = useState(
     localStorage.getItem("favouriteDrawerOpen") === "true"
   );
@@ -65,8 +57,6 @@ function App() {
 
   useEffect(() => {
     if (shows) return;
-
-    console.log(showJSON);
 
     const response = showJSON as ShowArray;
     response.forEach((show) => {
@@ -88,6 +78,22 @@ function App() {
       keys: ["title"],
       isCaseSensitive: false,
     });
+
+    (async () => {
+      try {
+        const favourites = await DropoutStorage.getFavourites();
+        setFavouriteShows(favourites);
+      } catch (error) {
+        console.error("Failed to load favourites:", error);
+      }
+
+      try {
+        const watchedEpisodes = await DropoutStorage.getWatchedEpisodes();
+        setWatchedEpisodes(watchedEpisodes);
+      } catch (error) {
+        console.error("Failed to load watched episodes:", error);
+      }
+    })();
 
     setSearchIndex(index);
     setShows(response);
@@ -140,24 +146,29 @@ function App() {
   );
 
   const addFavourite = useCallback(
-    (show: Show) => {
-      const favourites = [...favouriteShows];
-      if (!favourites.includes(show.title)) {
-        favourites.push(show.title);
-        localStorage.setItem("favouriteShows", JSON.stringify(favourites));
-        setFavouriteShows(favourites);
+    async (show: Show) => {
+      try {
+        await DropoutStorage.addFavourite(show.title);
+        setFavouriteShows((prev) => {
+          const newSet = new Set(prev);
+          newSet.add(show.title);
+          return newSet;
+        });
+      } catch (error) {
+        console.error("Failed to add favourite:", error);
       }
     },
     [favouriteShows]
   );
 
   const removeFavourite = useCallback(
-    (show: Show) => {
-      const favourites = favouriteShows.filter(
-        (favourite) => favourite !== show.title
-      );
-      localStorage.setItem("favouriteShows", JSON.stringify(favourites));
-      setFavouriteShows(favourites);
+    async (show: Show) => {
+      await DropoutStorage.removeFavourite(show.title);
+      setFavouriteShows((prev) => {
+        const newSet = new Set(prev);
+        newSet.delete(show.title);
+        return newSet;
+      });
     },
     [favouriteShows]
   );
@@ -200,7 +211,7 @@ function App() {
         textAlign: "center",
       }}
     >
-      {favouriteShows.length > 0 && (
+      {favouriteShows.size > 0 && (
         <>
           <div
             className="text-white text-left w-full box-border text-3xl"
@@ -215,7 +226,7 @@ function App() {
               setFavouriteDrawerOpen(!favouriteDrawerOpen);
             }}
             onKeyDown={(event) => {
-              if(event.key !== "Enter" && event.key !== " ") return;
+              if (event.key !== "Enter" && event.key !== " ") return;
               localStorage.setItem(
                 "favouriteDrawerOpen",
                 (!favouriteDrawerOpen).toString()
@@ -263,7 +274,9 @@ function App() {
                     favouriteShows={favouriteShows}
                     isInFavouriteDrawer={true}
                     removeFavourite={removeFavourite}
+                    setWatchedEpisodes={setWatchedEpisodes}
                     show={show}
+                    watchedEpisodes={watchedEpisodes}
                     onClick={() => {
                       window.history.pushState({}, "", `?modal=${show.title}`);
                       openShowModal(show);
@@ -310,7 +323,9 @@ function App() {
               addFavourite={addFavourite}
               favouriteShows={favouriteShows}
               removeFavourite={removeFavourite}
+              setWatchedEpisodes={setWatchedEpisodes}
               show={metadata}
+              watchedEpisodes={watchedEpisodes}
               onClick={() => {
                 window.history.pushState({}, "", `?modal=${metadata.title}`);
                 openShowModal(metadata);
@@ -409,6 +424,10 @@ function App() {
 
                   {modalShow.show.season[modalShow.selectedSeason]?.episodes
                     .filter((ep) => {
+                      if(filters.includes(FilterType.Unwatched) && watchedEpisodes.has(ep.id)) {
+                        return false;
+                      }
+
                       if (ep.number === EpisodeType.Extras) {
                         return filters.includes(FilterType.Extras);
                       }
@@ -427,8 +446,11 @@ function App() {
                       return (
                         <ShowCard
                           key={ep.id}
+                          epShow={modalShow.show}
                           isShow={false}
+                          setWatchedEpisodes={setWatchedEpisodes}
                           show={ep}
+                          watchedEpisodes={watchedEpisodes}
                           onClick={() => {
                             window.open(
                               `https://www.youtube.com/watch?v=${ep.id}`,

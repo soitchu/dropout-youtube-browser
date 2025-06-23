@@ -6,6 +6,7 @@ export enum FilterType {
   Numbered = "numbered",
   Unnumbered = "unnumbered",
   Extras = "extras",
+  Unwatched = "unwatched",
 }
 
 const CheckIcon = (props: any) => {
@@ -108,6 +109,7 @@ export default function Filters({
         FilterType.Numbered,
         FilterType.Unnumbered,
         FilterType.Extras,
+        FilterType.Unwatched,
       ].map((type) => {
         return (
           <Filter

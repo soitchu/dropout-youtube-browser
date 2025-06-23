@@ -1,9 +1,25 @@
+/* eslint-disable prettier/prettier */
 import type { Episode, Show } from "../types";
 
-import { useMemo } from "react";
-import { Card, CardBody, CardFooter, PressEvent, Button } from "@heroui/react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  Card,
+  CardBody,
+  CardFooter,
+  PressEvent,
+  Button,
+  DropdownMenu,
+  DropdownTrigger,
+  Dropdown,
+  DropdownItem,
+} from "@heroui/react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
+
+import DropoutStorage from "@/storage";
 
 export default function ShowCard({
   show,
@@ -12,14 +28,20 @@ export default function ShowCard({
   favouriteShows,
   addFavourite,
   removeFavourite,
+  watchedEpisodes,
+  setWatchedEpisodes,
+  epShow,
   onClick,
 }: {
   show: Show | Episode;
   isShow?: boolean;
   isInFavouriteDrawer?: boolean;
-  favouriteShows?: string[];
-  addFavourite?: (show: Show) => void;
-  removeFavourite?: (show: Show) => void;
+  favouriteShows?: Set<string>;
+  addFavourite?: (show: Show) => Promise<void>;
+  removeFavourite?: (show: Show) => Promise<void>;
+  epShow?: Show;
+  watchedEpisodes: Set<string>;
+  setWatchedEpisodes: (episodes: Set<string>) => void;
   onClick: Function;
 }) {
   const lastUpdateAt = useMemo(() => {
@@ -65,6 +87,48 @@ export default function ShowCard({
     return null;
   }, [show]);
 
+  const [hasBeenWatched, setHasBeenWatched] = useState(() => {
+    if (isShow) return false;
+    const ep = show as Episode;
+
+    return watchedEpisodes.has(ep.id);
+  });
+
+  useEffect(() => {
+    if (isShow) return;
+
+    const ep = show as Episode;
+
+    if (hasBeenWatched) {
+      watchedEpisodes.add(ep.id);
+    } else {
+      watchedEpisodes.delete(ep.id);
+    }
+  }, [hasBeenWatched]);
+
+  useEffect(() => {
+    if (isShow) return;
+
+    const ep = show as Episode;
+
+    const isWatched = watchedEpisodes.has(ep.id);
+    setHasBeenWatched(isWatched);
+  }, [watchedEpisodes]);
+
+  const toggleWatched = useCallback(async () => {
+    if (!show || isShow || !epShow) return;
+
+    const showName = epShow!.title;
+    const ep = show as Episode;
+    if (hasBeenWatched) {
+      await DropoutStorage.removeWatchedEpisode(showName, ep.id);
+      setHasBeenWatched(false);
+    } else {
+      await DropoutStorage.addWatchedEpisode(showName, ep.id);
+      setHasBeenWatched(true);
+    }
+  }, [show, epShow, hasBeenWatched]);
+
   const thumbnailUrl =
     ("thumbnail" in show ? show.thumbnail.url : show.thumbnails?.url) ?? "";
 
@@ -86,26 +150,119 @@ export default function ShowCard({
               {episodeLabel}
             </div>
           )}
-
-          {isShow && (
-            <Button
-              className="absolute top-2 right-2 bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md min-w-[45px]"
-              onPress={() => {
-                if (favouriteShows?.includes(show.title)) {
-                  removeFavourite?.(show as Show);
+          <Button
+            className="absolute top-2 right-2 bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md min-w-[45px]"
+            onPress={async () => {
+              try {
+                if (isShow) {
+                  if (favouriteShows?.has(show.title)) {
+                    await removeFavourite?.(show as Show);
+                  } else {
+                    await addFavourite?.(show as Show);
+                  }
                 } else {
-                  addFavourite?.(show as Show);
+                  await toggleWatched();
                 }
-              }}
-            >
-              {favouriteShows?.includes(show.title) ? (
+              } catch (error) {
+                console.error("Error toggling favourite:", error);
+              }
+            }}
+          >
+            {isShow &&
+              (favouriteShows?.has(show.title) ? (
                 <FavoriteIcon />
               ) : (
                 <FavoriteBorderOutlinedIcon />
-              )}
+              ))}
+
+            {!isShow &&
+              (hasBeenWatched ? (
+                <VisibilityIcon />
+              ) : (
+                <VisibilityOutlinedIcon />
+              ))}
+          </Button>
+          {!isShow && (
+            <Button className="absolute top-2 right-[60px] bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md min-w-[45px]">
+              <Dropdown>
+                <DropdownTrigger>
+                  <MoreVertIcon />
+                </DropdownTrigger>
+                <DropdownMenu
+                  onAction={async (key) => {
+                    try {
+                      switch (key) {
+                        case "toggleWatched":
+                          await toggleWatched();
+                          break;
+                        case "markWatchedUntil":
+                        case "markUnwatchedUntil":
+                          const seasons = epShow?.season || {};
+                          const epList: string[] = [];
+                          const currentEp = show as Episode;
+
+                          let hasSeenCurrent = false;
+                          for (const season in seasons) {
+                            const episodes = seasons[season].episodes;
+                            for (const ep of episodes) {
+                              epList.push(ep.id);
+                              if (ep.id === currentEp.id) {
+                                hasSeenCurrent = true;
+                                break;
+                              }
+                            }
+
+                            if (hasSeenCurrent) {
+                              break;
+                            }
+                          }
+
+                          if (key === "markWatchedUntil") {
+                            await DropoutStorage.addBulkWatchedEpisodes(
+                              epShow!.title,
+                              epList
+                            );
+
+                            for (const epId of epList) {
+                              watchedEpisodes.add(epId);
+                            }
+
+                            setWatchedEpisodes(new Set(watchedEpisodes));
+                          } else {
+                            await DropoutStorage.removeBulkWatchedEpisodes(
+                              epShow!.title,
+                              epList
+                            );
+
+                            for (const epId of epList) {
+                              watchedEpisodes.delete(epId);
+                            }
+
+                            setWatchedEpisodes(new Set(watchedEpisodes));
+                          }
+                          break;
+                      }
+                    } catch (error) {
+                      console.error("Error in dropdown action:", error);
+                    }
+                  }}
+                >
+                  <DropdownItem key="toggleWatched">
+                    Mark as {hasBeenWatched ? "un" : ""}watched
+                  </DropdownItem>
+                  <DropdownItem key="markWatchedUntil">
+                    Mark as watched <br />
+                    until this episode
+                  </DropdownItem>
+                  <DropdownItem key="markUnwatchedUntil">
+                    Mark as unwatched <br />
+                    until this episode
+                  </DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
             </Button>
           )}
-
+          )
           <img
             alt={show.title}
             className="w-full object-cover h-[140px] drop-shadow-sm"
