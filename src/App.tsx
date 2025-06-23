@@ -270,7 +270,9 @@ function App() {
                   />
                 );
               })}
-              <div className="inline-block" style={{ width: "30px" }} />
+              {!favouriteDrawerOpen && (
+                <div className="inline-block" style={{ width: "30px" }} />
+              )}
             </ScrollShadow>
           </div>
         </>
