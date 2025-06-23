@@ -116,6 +116,7 @@ export default function ShowCard({
           <Image
             alt={show.title}
             className="w-full object-cover h-[140px]"
+            loading="lazy"
             radius="lg"
             shadow="sm"
             src={thumbnailUrl}
