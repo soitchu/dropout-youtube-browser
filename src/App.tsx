@@ -12,6 +12,7 @@ import {
   Select,
   SelectItem,
 } from "@heroui/react";
+import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
 
 import showJSON from "./shows.json";
 import { EpisodeType, type Show, type ShowArray } from "./types";
@@ -57,6 +58,9 @@ function App() {
       return [];
     }
   });
+  const [favouriteDrawerOpen, setFavouriteDrawerOpen] = useState(
+    localStorage.getItem("favouriteDrawerOpen") === "false"
+  );
   const [filters, setFilters] = useState<FilterType[]>(defaultFilters);
 
   useEffect(() => {
@@ -199,14 +203,48 @@ function App() {
       {favouriteShows.length > 0 && (
         <>
           <div
-            className="text-white text-left w-full box-border text-2xl"
-            style={{ padding: "10px" }}
+            className="text-white text-left w-full box-border text-3xl"
+            role="button"
+            style={{ padding: "20px" }}
+            tabIndex={0}
+            onClick={() => {
+              localStorage.setItem(
+                "favouriteDrawerOpen",
+                (!favouriteDrawerOpen).toString()
+              );
+              setFavouriteDrawerOpen(!favouriteDrawerOpen);
+            }}
+            onKeyDown={() => {
+              localStorage.setItem(
+                "favouriteDrawerOpen",
+                (!favouriteDrawerOpen).toString()
+              );
+              setFavouriteDrawerOpen(!favouriteDrawerOpen);
+            }}
           >
-            Favourite Shows <br />
+            <span>
+              <b>Favourite Shows </b>
+            </span>
+            <ArrowDropDownCircleIcon
+              fontSize="large"
+              htmlColor="#feea3b"
+              style={{
+                verticalAlign: "top",
+                transform: favouriteDrawerOpen
+                  ? "rotate(0deg)"
+                  : "rotate(-90deg)",
+                transitionDuration: "200ms",
+              }}
+            />
           </div>
           <div
-            className="text-white text-left w-full box-border text-2xl whitespace-nowrap overflow-x-auto"
-            style={{ padding: "10px" }}
+            className="text-white text-left w-full box-border text-2xl"
+            style={{
+              paddingLeft: "20px",
+              paddingRight: "20px",
+              whiteSpace: favouriteDrawerOpen ? "normal" : "nowrap",
+              overflowX: favouriteDrawerOpen ? "visible" : "hidden",
+            }}
           >
             <ScrollShadow
               className="w-full h-[400px]"
@@ -222,6 +260,7 @@ function App() {
                     key={show.title}
                     addFavourite={addFavourite}
                     favouriteShows={favouriteShows}
+                    isInFavouriteDrawer={true}
                     removeFavourite={removeFavourite}
                     show={show}
                     onClick={() => {

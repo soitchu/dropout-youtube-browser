@@ -15,6 +15,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 export default function ShowCard({
   show,
   isShow = true,
+  isInFavouriteDrawer = false,
   favouriteShows,
   addFavourite,
   removeFavourite,
@@ -22,6 +23,7 @@ export default function ShowCard({
 }: {
   show: Show | Episode;
   isShow?: boolean;
+  isInFavouriteDrawer?: boolean;
   favouriteShows?: string[];
   addFavourite?: (show: Show) => void;
   removeFavourite?: (show: Show) => void;
@@ -77,8 +79,11 @@ export default function ShowCard({
     <>
       <Card
         isPressable
-        className="w-[300px] m-3 inline-block bg-[#feea3b] align-top"
+        className="m-3 inline-block bg-[#feea3b] align-top"
         shadow="sm"
+        style={{
+          width: isInFavouriteDrawer ? "200px" : "300px",
+        }}
         onContextMenu={() => console.log("item context menu")}
         onPress={onClick as (e: PressEvent) => void}
       >
@@ -118,7 +123,7 @@ export default function ShowCard({
           />
         </CardBody>
         <CardFooter className="text-small justify-between bg-[#feea3b] block">
-          <b>{show.title}</b>
+          <b className="whitespace-break-spaces">{show.title}</b>
           <p>{lastUpdateAt}</p>
         </CardFooter>
       </Card>
