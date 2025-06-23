@@ -41,6 +41,15 @@ export default function ShowCard({
       return `Ep. ${show.number}`;
     }
 
+    if ("season" in show) {
+      const keys = Object.keys(show.season);
+      const lastSeason = parseInt(keys[keys.length - 1]);
+
+      if (!isNaN(lastSeason)) {
+        return `${lastSeason} Season${lastSeason > 1 ? "s" : ""}`;
+      }
+    }
+
     return null;
   }, [show]);
 
@@ -58,7 +67,7 @@ export default function ShowCard({
       >
         <CardBody className="relative overflow-visible p-0">
           {episodeLabel && (
-            <div className="absolute top-2 left-2 bg-[#feea3b] text-black text-xs p-1 z-20 rounded-xl shadow-md">
+            <div className="absolute top-2 left-2 bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md">
               {episodeLabel}
             </div>
           )}
