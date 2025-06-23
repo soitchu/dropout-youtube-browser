@@ -1,14 +1,7 @@
 import type { Episode, Show } from "../types";
 
 import { useMemo } from "react";
-import {
-  Card,
-  CardBody,
-  Image,
-  CardFooter,
-  PressEvent,
-  Button,
-} from "@heroui/react";
+import { Card, CardBody, CardFooter, PressEvent, Button } from "@heroui/react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 
@@ -113,12 +106,10 @@ export default function ShowCard({
             </Button>
           )}
 
-          <Image
+          <img
             alt={show.title}
-            className="w-full object-cover h-[140px]"
+            className="w-full object-cover h-[140px] drop-shadow-sm"
             loading="lazy"
-            radius="lg"
-            shadow="sm"
             src={thumbnailUrl}
             width="100%"
           />
