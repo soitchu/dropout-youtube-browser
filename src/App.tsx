@@ -247,7 +247,7 @@ function App() {
             }}
           >
             <ScrollShadow
-              className="w-full h-[400px]"
+              className="w-full h-[400px] text-center"
               orientation="horizontal"
               size={50}
             >
@@ -287,8 +287,10 @@ function App() {
       >
         {
           <div
-            className="w-[300px] max-w-[80%] mx-auto"
+            className="mx-auto"
             style={{
+              width: "300px",
+              maxWidth: "80%",
               paddingTop: "20px",
               paddingBottom: "20px",
             }}
@@ -351,7 +353,7 @@ function App() {
                       zIndex: "3000",
                     }}
                   >
-                    <div className="w-[300px] mt-5">
+                    <div className="mt-5" style={{ width: "300px" }}>
                       <Select
                         defaultSelectedKeys={modalShow.selectedSeason.toString()}
                         onSelectionChange={(key) => {
