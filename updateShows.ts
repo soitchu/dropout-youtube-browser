@@ -178,18 +178,20 @@ async function getAllPlaylistsVideos() {
     ),
   );
 
-  for (const playlist of playlists) {
-    const videos = await getPlaylistVideos(playlist.id);
+  await Promise.all(
+    playlists.map(async (playlist: any) => {
+      const videos = await getPlaylistVideos(playlist.id);
 
-    console.log(
-      `Fetched ${videos.length} videos for playlist: ${playlist.snippet.title}`,
-    );
+      console.log(
+        `Fetched ${videos.length} videos for playlist: ${playlist.snippet.title}`,
+      );
 
-    writeFileSync(
-      join(__dirname, dataFolder, "playlists", `${playlist.id}.json`),
-      JSON.stringify(videos, null, 2),
-    );
-  }
+      writeFileSync(
+        join(__dirname, dataFolder, "playlists", `${playlist.id}.json`),
+        JSON.stringify(videos, null, 2),
+      );
+    }),
+  );
 }
 
 async function getAdventuringPartySeasonOne() {
