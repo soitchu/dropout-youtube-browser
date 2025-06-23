@@ -59,7 +59,7 @@ function App() {
     }
   });
   const [favouriteDrawerOpen, setFavouriteDrawerOpen] = useState(
-    localStorage.getItem("favouriteDrawerOpen") === "false"
+    localStorage.getItem("favouriteDrawerOpen") === "true"
   );
   const [filters, setFilters] = useState<FilterType[]>(defaultFilters);
 
@@ -214,7 +214,8 @@ function App() {
               );
               setFavouriteDrawerOpen(!favouriteDrawerOpen);
             }}
-            onKeyDown={() => {
+            onKeyDown={(event) => {
+              if(event.key !== "Enter" && event.key !== " ") return;
               localStorage.setItem(
                 "favouriteDrawerOpen",
                 (!favouriteDrawerOpen).toString()
