@@ -120,6 +120,23 @@ function App() {
         selectedSeason: seasonNumber,
         show: metadata,
       });
+
+      (async () => {
+        try {
+          if (!favouriteShows.has(metadata.title)) return;
+
+          await DropoutStorage.addFavourite(metadata.title);
+
+          setFavouriteShows((prev) => {
+            const newSet = new Set(prev);
+            newSet.delete(metadata.title);
+            newSet.add(metadata.title);
+            return newSet;
+          });
+        } catch (error) {
+          console.error("Error opening show modal:", error);
+        }
+      })();
     } else {
       setModalShow(undefined);
     }
@@ -424,7 +441,10 @@ function App() {
 
                   {modalShow.show.season[modalShow.selectedSeason]?.episodes
                     .filter((ep) => {
-                      if(filters.includes(FilterType.Unwatched) && watchedEpisodes.has(ep.id)) {
+                      if (
+                        filters.includes(FilterType.Unwatched) &&
+                        watchedEpisodes.has(ep.id)
+                      ) {
                         return false;
                       }
 
