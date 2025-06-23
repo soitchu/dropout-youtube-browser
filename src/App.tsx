@@ -1,10 +1,11 @@
 /* eslint-disable prettier/prettier */
-import type { Show, ShowArray } from "./types";
+import { EpisodeType, type Show, type ShowArray } from "./types";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import { Input } from "@heroui/input";
 import {
+  Chip,
   Image,
   Modal,
   ModalBody,
@@ -15,6 +16,7 @@ import {
 } from "@heroui/react";
 
 import ShowCard from "./components/ShowCard";
+import Filters, { FilterType } from "./components/Filters";
 
 function App() {
   const [shows, setShows] = useState<ShowArray | null>(null);
@@ -27,6 +29,24 @@ function App() {
       }
     | undefined
   >();
+  const defaultFilters = useMemo(() => {
+    try {
+      const storedFilters = localStorage.getItem("filters");
+      if (storedFilters) {
+        return JSON.parse(storedFilters) as FilterType[];
+      }
+
+      throw new Error("No filters found in localStorage");
+    } catch {
+      return [
+        FilterType.Extras,
+        FilterType.Numbered,
+        FilterType.Trailer,
+        FilterType.Unnumbered,
+      ];
+    }
+  }, []);
+  const [filters, setFilters] = useState<FilterType[]>(defaultFilters);
 
   useEffect(() => {
     if (shows) return;
@@ -62,6 +82,10 @@ function App() {
       })
       .catch(console.error);
   }, []);
+
+  useEffect(() => {
+    localStorage.setItem("filters", JSON.stringify(filters));
+  }, [filters]);
 
   const openShowModal = function (metadata: Show | undefined) {
     if (metadata) {
@@ -147,7 +171,7 @@ function App() {
           top: "0",
           left: "0",
           zIndex: 49,
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          backgroundColor: "#141414aa",
         }}
       >
         {
@@ -247,9 +271,40 @@ function App() {
                     </div>
                   </div>
 
+                  <div style={{ marginTop: "10px" }}>
+                    <Filters
+                      defaultFilters={defaultFilters}
+                      onFilterChange={(type, checked) => {
+                        if (checked) {
+                          const newFilters = [...filters, type];
+                          setFilters([...new Set(newFilters)]);
+                        } else {
+                          const newFilters = filters.filter(
+                            (filter) => filter !== type
+                          );
+                          setFilters(newFilters);
+                        }
+                      }}
+                    />
+                  </div>
+
                   {modalShow.show.season[
                     modalShow.selectedSeason
-                  ]?.episodes.map((ep) => {
+                  ]?.episodes.filter((ep) => {
+                    if(ep.number === EpisodeType.Extras) {
+                      return filters.includes(FilterType.Extras);
+                    }
+
+                    if(ep.number === EpisodeType.Trailer) {
+                      return filters.includes(FilterType.Trailer);
+                    }
+
+                    if(ep.number === EpisodeType.Unnumbered) {
+                      return filters.includes(FilterType.Unnumbered);
+                    }
+
+                    return filters.includes(FilterType.Numbered);
+                  }).map((ep) => {
                     return (
                       <ShowCard
                         key={ep.id}

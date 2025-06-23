@@ -67,6 +67,17 @@
           },
           {
             "thumbnails": {
+              "url": "https://i.ytimg.com/vi/iJl_qUA-4gc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2020-06-14T22:02:20Z",
+            "title": "Welcome to Denny's",
+            "number": 6,
+            "id": "iJl_qUA-4gc"
+          },
+          {
+            "thumbnails": {
               "url": "https://i.ytimg.com/vi/BtONMuscCOQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
@@ -95,19 +106,8 @@
             },
             "publishedAt": "2020-06-10T15:18:48Z",
             "title": "Protest, Justice, and Black Lives Matter (Special Episode)",
-            "number": -1,
+            "number": 9,
             "id": "-F1oAsEWQ4Q"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/iJl_qUA-4gc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2020-06-14T22:02:20Z",
-            "title": "Welcome to Denny's",
-            "number": 6,
-            "id": "iJl_qUA-4gc"
           },
           {
             "thumbnails": {
@@ -117,7 +117,7 @@
             },
             "publishedAt": "2020-06-16T23:01:29Z",
             "title": "Slam Down, Big-Style",
-            "number": 9,
+            "number": 10,
             "id": "kZy0mmTLf_g"
           },
           {
@@ -128,7 +128,7 @@
             },
             "publishedAt": "2020-06-23T23:06:27Z",
             "title": "Soft Hugs",
-            "number": 10,
+            "number": 11,
             "id": "wD8Gi-AUKkw"
           },
           {
@@ -139,7 +139,7 @@
             },
             "publishedAt": "2020-06-30T23:02:59Z",
             "title": "Twinned Down, Big Business-Style",
-            "number": 11,
+            "number": 12,
             "id": "ZIP50ZxigK0"
           },
           {
@@ -150,7 +150,7 @@
             },
             "publishedAt": "2021-08-31T16:44:42Z",
             "title": "Choppy Skullduggery",
-            "number": 12,
+            "number": 13,
             "id": "aYY-vGsxfMY"
           },
           {
@@ -161,7 +161,7 @@
             },
             "publishedAt": "2020-07-14T22:46:53Z",
             "title": "Dom or Be Dommed",
-            "number": 13,
+            "number": 14,
             "id": "JN2QzaQcpSo"
           },
           {
@@ -172,7 +172,7 @@
             },
             "publishedAt": "2020-07-21T23:51:05Z",
             "title": "Rude Goldberg and Eartha Crit, Explained",
-            "number": 14,
+            "number": 15,
             "id": "jUcxLbad31I"
           },
           {
@@ -183,7 +183,7 @@
             },
             "publishedAt": "2020-07-28T23:00:02Z",
             "title": "I Stan The Protestant Work Ethic!",
-            "number": 15,
+            "number": 16,
             "id": "intsLWmLjxE"
           },
           {
@@ -194,7 +194,7 @@
             },
             "publishedAt": "2020-08-04T23:04:41Z",
             "title": "Burt From Ohio, Thankyousomuch",
-            "number": 16,
+            "number": 17,
             "id": "aqqNBb3-l5c"
           },
           {
@@ -205,7 +205,7 @@
             },
             "publishedAt": "2020-08-26T23:01:50Z",
             "title": "The Wild Childs",
-            "number": 17,
+            "number": 18,
             "id": "JqRJ4TEZmvs"
           }
         ]
@@ -577,7 +577,7 @@
             },
             "publishedAt": "2021-07-08T23:08:52Z",
             "title": "True Facts About McDonald's Apple Pie",
-            "number": -1,
+            "number": 2,
             "id": "oVEMU6j2ZPg"
           },
           {
@@ -1667,7 +1667,7 @@
             },
             "publishedAt": "2023-09-14T23:00:24Z",
             "title": "Bit City USA",
-            "number": -1,
+            "number": 6,
             "id": "RQSyTzmsavs"
           }
         ]
@@ -2414,7 +2414,7 @@
     }
   },
   {
-    "title": "Dimension 20: Cloudward, Ho!",
+    "title": "Dimension 20 Cloudward, Ho!",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/ubR-CRYTrZs/maxresdefault.jpg",
       "width": 1280,
@@ -2473,7 +2473,7 @@
     }
   },
   {
-    "title": "Dimension 20 Live",
+    "title": "Dimension 20 Fantasy High",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/sjNrwGKRPw4/maxresdefault.jpg",
       "width": 1280,
@@ -2481,6 +2481,231 @@
     },
     "season": {
       "1": {
+        "id": "PLuKg-WhduhklSBUjoUJ0drkCEIHI6nXyf",
+        "episodes": [
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/1XkyFEho7qs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T17:47:43Z",
+            "title": "The Beginning Begins",
+            "number": 1,
+            "id": "1XkyFEho7qs"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/25pBWVz1Wss/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T18:00:56Z",
+            "title": "Clash of the Corn Cuties",
+            "number": 2,
+            "id": "25pBWVz1Wss"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/F_g4irmvMrk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T18:02:45Z",
+            "title": "After the Afterlife",
+            "number": 3,
+            "id": "F_g4irmvMrk"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/CZSDdkuXdyc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T18:05:03Z",
+            "title": "Rumble Road",
+            "number": 4,
+            "id": "CZSDdkuXdyc"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/3EyFDf7x2Ms/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T18:07:52Z",
+            "title": "The Pixie and the Palimpsest",
+            "number": 5,
+            "id": "3EyFDf7x2Ms"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/KLYjLBogtVI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T19:26:20Z",
+            "title": "Brawl at the Black Pit",
+            "number": 6,
+            "id": "KLYjLBogtVI"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/0MOxhXoQoS4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T18:10:21Z",
+            "title": "Graveyard of Good and Evil",
+            "number": 7,
+            "id": "0MOxhXoQoS4"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/o81-q6HW5yk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-11-09T18:12:52Z",
+            "title": "Havoc on the Half-Pipe",
+            "number": 8,
+            "id": "o81-q6HW5yk"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/wBEZ6DjAxxM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Dishing with a Demon",
+            "number": 9,
+            "id": "wBEZ6DjAxxM"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/CttbCSHBrg8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Battle of the Bloodrush Brethren",
+            "number": 10,
+            "id": "CttbCSHBrg8"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/_GJK9P2LVdU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Cool Kids, Cold Case",
+            "number": 11,
+            "id": "_GJK9P2LVdU"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/4ZYLxfOw7Dg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "The Sisterly Showdown",
+            "number": 12,
+            "id": "4ZYLxfOw7Dg"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/TuUMHEZoTuQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "First Kisses and Last Words",
+            "number": 13,
+            "id": "TuUMHEZoTuQ"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/yuyxI7l97Ds/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Arcade Ambush",
+            "number": 14,
+            "id": "yuyxI7l97Ds"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/R-dFwT3n3Rc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Family in Flames",
+            "number": 15,
+            "id": "R-dFwT3n3Rc"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/qsKAE8738aw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Prompocalypse",
+            "number": 16,
+            "id": "qsKAE8738aw"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/ayGtElwiNTo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-12T20:03:50Z",
+            "title": "Prompocalypse - Pt. 2",
+            "number": 17,
+            "id": "ayGtElwiNTo"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/-tasYql6FBY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-23T16:28:56Z",
+            "title": "Fantasy High: Behind the Scenes",
+            "number": 18,
+            "id": "-tasYql6FBY"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/-ulIYMA0sqg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-20T23:50:46Z",
+            "title": "Dimension 20 Live",
+            "number": 19,
+            "id": "-ulIYMA0sqg"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Ekgd2ePymD8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-09-20T23:52:03Z",
+            "title": "Fantasy High LIVE at RTX Austin",
+            "number": 20,
+            "id": "Ekgd2ePymD8"
+          }
+        ]
+      },
+      "2": {
         "id": "PLuKg-Whduhkk8HjHp26tc620wMYTf6gHQ",
         "episodes": [
           {
@@ -2623,7 +2848,7 @@
             },
             "publishedAt": "2020-02-11T08:10:25Z",
             "title": "Hellbound",
-            "number": -1,
+            "number": 13,
             "id": "powei5k8GR0"
           },
           {
@@ -2634,7 +2859,7 @@
             },
             "publishedAt": "2020-02-18T22:07:49Z",
             "title": "Daddies & Demons",
-            "number": -1,
+            "number": 14,
             "id": "p7x6EzePaeg"
           },
           {
@@ -2689,7 +2914,7 @@
             },
             "publishedAt": "2020-03-24T17:31:59Z",
             "title": "Fireside Chat with Brennan & Friends (Part 1)",
-            "number": -1,
+            "number": -4,
             "id": "6xcd7vfjo0o"
           },
           {
@@ -2700,7 +2925,7 @@
             },
             "publishedAt": "2020-03-31T19:42:29Z",
             "title": "Fireside Chat with Brennan & Friends (Part 2)",
-            "number": -1,
+            "number": -4,
             "id": "-OcNWYpthsM"
           },
           {
@@ -2722,7 +2947,7 @@
             },
             "publishedAt": "2020-04-08T04:58:31Z",
             "title": "Spring Break! I Believe In You! (Part 2)",
-            "number": -1,
+            "number": 20,
             "id": "USDoNZ-Ygdc"
           },
           {
@@ -2733,7 +2958,7 @@
             },
             "publishedAt": "2020-09-29T23:08:47Z",
             "title": "College Visit (RTX @ Home Live)",
-            "number": -1,
+            "number": -4,
             "id": "Sr0Zi59jpEc"
           },
           {
@@ -2744,7 +2969,7 @@
             },
             "publishedAt": "2020-10-28T23:00:40Z",
             "title": "Boys' Night! (Roll20Con)",
-            "number": -1,
+            "number": -4,
             "id": "7rjNgO-YUos"
           },
           {
@@ -2755,8 +2980,354 @@
             },
             "publishedAt": "2022-07-16T03:35:33Z",
             "title": "Making Chungledown Bim (with Lou Wilson)",
-            "number": -1,
+            "number": 25,
             "id": "z2sn-g35LFQ"
+          }
+        ]
+      },
+      "3": {
+        "id": "PLuKg-Whduhklj1Dpe8NN7__nLxGoaOUMl",
+        "episodes": [
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/8Jr7dyVCmFM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-03T19:38:01Z",
+            "title": "Dimension 20: Fantasy High Junior Year Trailer [Dropout Exclusive Series]",
+            "number": -2,
+            "id": "8Jr7dyVCmFM"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/hGC6SnNAwC0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-11T00:01:05Z",
+            "title": "Summer Scaries",
+            "number": 1,
+            "id": "hGC6SnNAwC0"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/1KEyu8OKKGs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-18T00:00:49Z",
+            "title": "Summer Breakdown",
+            "number": 2,
+            "id": "1KEyu8OKKGs"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/8aXfZrmDSrg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-25T00:01:16Z",
+            "title": "Not All Who Wanda Are Lost",
+            "number": 3,
+            "id": "8aXfZrmDSrg"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Wq2Drxoa71s/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-02-01T00:00:35Z",
+            "title": "Under Pressure",
+            "number": 4,
+            "id": "Wq2Drxoa71s"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/yXv4C4_aZvE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-02-08T00:00:51Z",
+            "title": "Mall Madness",
+            "number": 5,
+            "id": "yXv4C4_aZvE"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/lviNn1XG5W0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-02-15T00:00:53Z",
+            "title": "Party Politics",
+            "number": 6,
+            "id": "lviNn1XG5W0"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/0bXhR2zLCEI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-02-22T00:01:18Z",
+            "title": "Stress Tested",
+            "number": 7,
+            "id": "0bXhR2zLCEI"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/ojesrO8BKsc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-02-29T00:00:34Z",
+            "title": "Fracas at the Frostyfaire Folk Festival",
+            "number": 8,
+            "id": "ojesrO8BKsc"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Z7-0FL5NzK4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-03-07T00:00:23Z",
+            "title": "Vulture Clash",
+            "number": 9,
+            "id": "Z7-0FL5NzK4"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/xIOsqw6amno/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-03-13T23:00:47Z",
+            "title": "Cursed Out",
+            "number": 10,
+            "id": "xIOsqw6amno"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/pHdgLMURTOE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-03-20T23:00:28Z",
+            "title": "A Very Merry Moonar Yulenear",
+            "number": 11,
+            "id": "pHdgLMURTOE"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/3ov3CHJwzyk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-03-27T23:01:01Z",
+            "title": "Baron's Game",
+            "number": 12,
+            "id": "3ov3CHJwzyk"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/m9K0cd1eGEU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-03T23:00:42Z",
+            "title": "Infernal Conflict",
+            "number": 13,
+            "id": "m9K0cd1eGEU"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/GXBFBFILA0w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-10T23:00:35Z",
+            "title": "Dawn of Justice",
+            "number": 14,
+            "id": "GXBFBFILA0w"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/oxH9doMDPA0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-17T23:00:14Z",
+            "title": "The Last Stand",
+            "number": 15,
+            "id": "oxH9doMDPA0"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/h6HELaypwZA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-24T23:01:49Z",
+            "title": "Untapped Rage",
+            "number": 16,
+            "id": "h6HELaypwZA"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/tN7yE6AfgQc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-05-01T23:01:15Z",
+            "title": "The Name",
+            "number": 17,
+            "id": "tN7yE6AfgQc"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/htGXHSXtpgk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-05-08T23:00:30Z",
+            "title": "Rock the Boat",
+            "number": 18,
+            "id": "htGXHSXtpgk"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/29lnaIZg1k4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-05-15T23:00:35Z",
+            "title": "Ragenarok (Part 1)",
+            "number": 19,
+            "id": "29lnaIZg1k4"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/2h7UiPED-vQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-05-22T23:00:31Z",
+            "title": "Ragenarok (Part 2)",
+            "number": 20,
+            "id": "2h7UiPED-vQ"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/bqbxzQi1GZ0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-03T18:31:04Z",
+            "title": "Behind the Scenes: Emily Axford",
+            "number": -3,
+            "id": "bqbxzQi1GZ0"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/fp8xmNuUFJQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-04T18:31:05Z",
+            "title": "Behind the Scenes: Ally Beardsley",
+            "number": -3,
+            "id": "fp8xmNuUFJQ"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/ZiGCowSL1wc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-05T18:30:20Z",
+            "title": "Behind the Scenes: Brian Murphy",
+            "number": -3,
+            "id": "ZiGCowSL1wc"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/0N_cc60DP10/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-06T18:37:49Z",
+            "title": "Behind the Scenes: Zac Oyama",
+            "number": -3,
+            "id": "0N_cc60DP10"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/E6NL9AjoGPM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-07T18:30:51Z",
+            "title": "Behind the Scenes: Siobhan Thompson",
+            "number": -3,
+            "id": "E6NL9AjoGPM"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Gl3uIEk7aq0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-08T18:30:53Z",
+            "title": "Behind the Scenes: Lou Wilson",
+            "number": -3,
+            "id": "Gl3uIEk7aq0"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/g722RMM-OsA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-09T18:30:35Z",
+            "title": "Behind the Scenes: Brennan Lee Mulligan",
+            "number": -3,
+            "id": "g722RMM-OsA"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/qhP2LbISdzw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-05-29T17:30:53Z",
+            "title": "Behind the Scenes: The Crew",
+            "number": -3,
+            "id": "qhP2LbISdzw"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/hnHhTAvbqlU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-10T18:30:28Z",
+            "title": "Teenage Rebellion [Official Music Video - Sarah Barrios]",
+            "number": -3,
+            "id": "hnHhTAvbqlU"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/qmRyK1xrlI4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-03-18T17:32:23Z",
+            "title": "Dimension 20: Fantasy High Junior Year Mid Season Recap",
+            "number": -4,
+            "id": "qmRyK1xrlI4"
           }
         ]
       }
@@ -2862,7 +3433,7 @@
             },
             "publishedAt": "2024-03-14T05:33:35Z",
             "title": "Creating Rounded Characters (with Lou Wilson)",
-            "number": -1,
+            "number": 1,
             "id": "pURrup121Xk"
           },
           {
@@ -2873,7 +3444,7 @@
             },
             "publishedAt": "2024-03-14T05:33:46Z",
             "title": "Keeping a Game Going (with Amy Vorpahl)",
-            "number": -1,
+            "number": 2,
             "id": "99LdpMvIDQ8"
           },
           {
@@ -2884,7 +3455,7 @@
             },
             "publishedAt": "2024-03-14T05:33:52Z",
             "title": "Raising the Stakes (with Brian Murphy) *FANTASY HIGH SPOILERS*",
-            "number": -1,
+            "number": 3,
             "id": "AY8VqiswElI"
           },
           {
@@ -2895,7 +3466,7 @@
             },
             "publishedAt": "2024-03-14T05:33:57Z",
             "title": "Playing in a Safe Space (with Erika Ishii)",
-            "number": -1,
+            "number": 4,
             "id": "In5nQnYXeVg"
           },
           {
@@ -2906,7 +3477,7 @@
             },
             "publishedAt": "2024-03-14T05:34:04Z",
             "title": "Being the Mean GM (with Noah Diamond)",
-            "number": -1,
+            "number": 5,
             "id": "xn9wwrs-JXU"
           },
           {
@@ -2917,7 +3488,7 @@
             },
             "publishedAt": "2024-03-14T05:34:10Z",
             "title": "Finishing a Campaign (with Molly Ostertag)",
-            "number": -1,
+            "number": 6,
             "id": "2PsUg2RWiA4"
           },
           {
@@ -2928,7 +3499,7 @@
             },
             "publishedAt": "2024-03-14T05:34:16Z",
             "title": "Building Your Own Campaign Setting (with Matthew Mercer) │ Adventuring Academy",
-            "number": -1,
+            "number": 7,
             "id": "sig8X_kojco"
           },
           {
@@ -2939,7 +3510,7 @@
             },
             "publishedAt": "2024-03-14T05:34:21Z",
             "title": "Leveling Up (with Satine Phoenix)",
-            "number": -1,
+            "number": 8,
             "id": "Ckox3W4zRHc"
           },
           {
@@ -2950,7 +3521,7 @@
             },
             "publishedAt": "2024-03-14T05:34:25Z",
             "title": "What to Do With a Nat 20 (with B. Dave Walters)",
-            "number": -1,
+            "number": 9,
             "id": "sCtIeSyWFn8"
           },
           {
@@ -2961,7 +3532,7 @@
             },
             "publishedAt": "2024-03-14T05:34:29Z",
             "title": "Giving Yourself Permission to Feel (with Marisha Ray)",
-            "number": -1,
+            "number": 10,
             "id": "BTIG9oydjGQ"
           },
           {
@@ -2972,7 +3543,7 @@
             },
             "publishedAt": "2024-03-14T05:34:33Z",
             "title": "Playing a Cooperative Game (with Nick Marini)",
-            "number": -1,
+            "number": 11,
             "id": "P8U22JoOyUQ"
           },
           {
@@ -2983,7 +3554,7 @@
             },
             "publishedAt": "2024-03-14T05:34:38Z",
             "title": "Healing Through D&D (with Krystina Arielle)",
-            "number": -1,
+            "number": 12,
             "id": "upuuZk6QlV8"
           },
           {
@@ -2994,7 +3565,7 @@
             },
             "publishedAt": "2024-03-14T05:34:42Z",
             "title": "Reunion with the Cast of Escape From the Bloodkeep",
-            "number": -1,
+            "number": 13,
             "id": "RGb2VYNd4ws"
           },
           {
@@ -3005,7 +3576,7 @@
             },
             "publishedAt": "2024-03-14T05:34:48Z",
             "title": "Reunion with the Cast of Escape From the Bloodkeep Pt. 2",
-            "number": -1,
+            "number": 14,
             "id": "63tcD2_hhHU"
           },
           {
@@ -3016,7 +3587,7 @@
             },
             "publishedAt": "2024-03-15T07:02:55Z",
             "title": "Introducing Horror to a Game with Ivan Van Norman",
-            "number": -1,
+            "number": 15,
             "id": "6qnmkuz8H9s"
           },
           {
@@ -3027,7 +3598,7 @@
             },
             "publishedAt": "2024-03-15T07:02:55Z",
             "title": "Finding Fun in Failure with Siobhan Thompson",
-            "number": -1,
+            "number": 16,
             "id": "ML5m4NL8meE"
           },
           {
@@ -3038,7 +3609,7 @@
             },
             "publishedAt": "2024-03-15T07:02:55Z",
             "title": "Killing Off Characters with Jack Covell",
-            "number": -1,
+            "number": 17,
             "id": "ozQa0im0C5I"
           },
           {
@@ -3049,7 +3620,7 @@
             },
             "publishedAt": "2024-03-15T07:02:56Z",
             "title": "Storytelling As a Game Master with Peter Warren",
-            "number": -1,
+            "number": 18,
             "id": "FnXSQiR8ayU"
           }
         ]
@@ -3584,7 +4155,7 @@
             },
             "publishedAt": "2019-09-26T16:05:02Z",
             "title": "Game Changer Promo",
-            "number": -1,
+            "number": -2,
             "id": "FC4ZTM0ou-0"
           },
           {
@@ -3655,7 +4226,7 @@
             },
             "publishedAt": "2020-03-04T01:16:28Z",
             "title": "Round 4",
-            "number": -1,
+            "number": 1,
             "id": "wZcyv12V5ME"
           },
           {
@@ -3666,7 +4237,7 @@
             },
             "publishedAt": "2020-03-13T07:07:49Z",
             "title": "Do I Hear $1?",
-            "number": -1,
+            "number": 2,
             "id": "50cLTrOR-Ag"
           },
           {
@@ -3677,7 +4248,7 @@
             },
             "publishedAt": "2020-03-27T16:36:58Z",
             "title": "Sleeper Agents",
-            "number": -1,
+            "number": 3,
             "id": "WvCcR-DMLZc"
           },
           {
@@ -3688,7 +4259,7 @@
             },
             "publishedAt": "2020-04-10T18:21:11Z",
             "title": "A Sponsored Episode",
-            "number": -1,
+            "number": 4,
             "id": "4WS23aWnGgA"
           },
           {
@@ -3699,7 +4270,7 @@
             },
             "publishedAt": "2020-04-24T23:03:59Z",
             "title": "The Everything Factory",
-            "number": -1,
+            "number": 5,
             "id": "puT6xVIsCuQ"
           },
           {
@@ -3710,7 +4281,7 @@
             },
             "publishedAt": "2020-05-08T23:11:26Z",
             "title": "Yes or No",
-            "number": -1,
+            "number": 6,
             "id": "r0c1n35WySE"
           }
         ]
@@ -4050,7 +4621,7 @@
             },
             "publishedAt": "2022-11-22T00:00:18Z",
             "title": "Behind The Scenes of \"Sam Says 2\"",
-            "number": -1,
+            "number": -3,
             "id": "yJeeU5KNT8s"
           },
           {
@@ -4072,7 +4643,7 @@
             },
             "publishedAt": "2022-12-06T00:00:10Z",
             "title": "Behind The Scenes of \"Karaoke Night\"",
-            "number": -1,
+            "number": -3,
             "id": "gRCg9_dy0QA"
           },
           {
@@ -4094,7 +4665,7 @@
             },
             "publishedAt": "2022-12-20T00:01:29Z",
             "title": "Behind The Scenes of \"Like My Coffee 2\"",
-            "number": -1,
+            "number": -3,
             "id": "Q8BwW-zRbqg"
           },
           {
@@ -4116,7 +4687,7 @@
             },
             "publishedAt": "2023-01-03T00:00:45Z",
             "title": "Behind The Scenes of \"Name A Number\"",
-            "number": -1,
+            "number": -3,
             "id": "MpBPrHTCQbk"
           },
           {
@@ -4138,7 +4709,7 @@
             },
             "publishedAt": "2023-01-17T00:00:12Z",
             "title": "Behind The Scenes of \"A Game Most Changed\"",
-            "number": -1,
+            "number": -3,
             "id": "c00FGuoK8qM"
           },
           {
@@ -4160,7 +4731,7 @@
             },
             "publishedAt": "2023-01-31T00:00:11Z",
             "title": "Behind The Scenes of \"As A Cucumber\"",
-            "number": -1,
+            "number": -3,
             "id": "TsQzmyqn0V8"
           },
           {
@@ -4193,7 +4764,7 @@
             },
             "publishedAt": "2023-02-28T00:00:21Z",
             "title": "Behind The Scenes of \"The Bachelor\"",
-            "number": -1,
+            "number": -3,
             "id": "RW_6guIh-Rw"
           },
           {
@@ -4215,7 +4786,7 @@
             },
             "publishedAt": "2023-03-13T23:00:19Z",
             "title": "Behind The Scenes of \"Escape The Greenroom\"",
-            "number": -1,
+            "number": -3,
             "id": "dCbmKCJV4L8"
           },
           {
@@ -4319,7 +4890,7 @@
             },
             "publishedAt": "2024-02-27T23:21:25Z",
             "title": "Behind the Scenes of \"Second Place\"",
-            "number": -1,
+            "number": -3,
             "id": "56nTZXaLXwA"
           },
           {
@@ -4341,7 +4912,7 @@
             },
             "publishedAt": "2024-03-04T18:30:33Z",
             "title": "Behind the Scenes of \"The Newlyweb Game\"",
-            "number": -1,
+            "number": -3,
             "id": "iFuL6mRpTu4"
           },
           {
@@ -4363,7 +4934,7 @@
             },
             "publishedAt": "2024-03-18T17:31:02Z",
             "title": "Behind the Scenes of \"Sam Says 3\"",
-            "number": -1,
+            "number": -3,
             "id": "LBCtuKb1ZN4"
           },
           {
@@ -4385,7 +4956,7 @@
             },
             "publishedAt": "2024-04-01T17:31:18Z",
             "title": "Behind the Scenes of \"Pencils Down\"",
-            "number": -1,
+            "number": -3,
             "id": "0V_d4HyeEF4"
           },
           {
@@ -4407,7 +4978,7 @@
             },
             "publishedAt": "2024-04-15T17:31:04Z",
             "title": "Behind the Scenes of \"Bingo\"",
-            "number": -1,
+            "number": -3,
             "id": "8vevs12I8ao"
           },
           {
@@ -4429,7 +5000,7 @@
             },
             "publishedAt": "2024-06-21T21:38:59Z",
             "title": "Behind the Scenes of \"Deja Vu\"",
-            "number": -1,
+            "number": -3,
             "id": "jWZE2tXcCiM"
           },
           {
@@ -4451,7 +5022,7 @@
             },
             "publishedAt": "2024-05-13T17:30:39Z",
             "title": "Behind the Scenes of \"Beat the Buzzer\"",
-            "number": -1,
+            "number": -3,
             "id": "cRdGhIAD_rE"
           },
           {
@@ -4484,7 +5055,7 @@
             },
             "publishedAt": "2024-06-24T17:30:34Z",
             "title": "Behind the Scenes of \"Ratfish\"",
-            "number": -1,
+            "number": -3,
             "id": "kGvuCxkByjI"
           }
         ]
@@ -4522,7 +5093,7 @@
             },
             "publishedAt": "2025-04-14T17:30:33Z",
             "title": "Behind the Scenes of \"One Year Later\"",
-            "number": -1,
+            "number": -3,
             "id": "GXXqrLStVzQ"
           },
           {
@@ -4544,7 +5115,7 @@
             },
             "publishedAt": "2025-04-28T17:30:44Z",
             "title": "Behind the Scenes of \"You-lympics\"",
-            "number": -1,
+            "number": -3,
             "id": "_AjxvNtbVOc"
           },
           {
@@ -4566,7 +5137,7 @@
             },
             "publishedAt": "2025-05-12T17:31:18Z",
             "title": "Behind the Scenes of \"Earnest-est\"",
-            "number": -1,
+            "number": -3,
             "id": "AoLbSM0g7fM"
           },
           {
@@ -4588,7 +5159,7 @@
             },
             "publishedAt": "2025-05-28T17:59:21Z",
             "title": "Behind the Scenes of \"Crowd Control\"",
-            "number": -1,
+            "number": -3,
             "id": "BewzkIpecaI"
           },
           {
@@ -4610,7 +5181,7 @@
             },
             "publishedAt": "2025-06-09T17:30:39Z",
             "title": "Behind the Scenes of \"The Drinking Game\"",
-            "number": -1,
+            "number": -3,
             "id": "SuSWqYssPVU"
           },
           {
@@ -4629,7 +5200,7 @@
     }
   },
   {
-    "title": "Dimension 20: Titan Takedown",
+    "title": "Dimension 20 Titan Takedown",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/-91PjwLRk0I/maxresdefault.jpg",
       "width": 1280,
@@ -4647,7 +5218,7 @@
             },
             "publishedAt": "2025-04-02T17:54:39Z",
             "title": "Dimension 20: Titan Takedown",
-            "number": -1,
+            "number": -2,
             "id": "-91PjwLRk0I"
           },
           {
@@ -4946,7 +5517,7 @@
             },
             "publishedAt": "2019-09-11T18:57:30Z",
             "title": "Um, Actually: Bigger, Longer, and Wronger [Full Episode]",
-            "number": -1,
+            "number": 1,
             "id": "ZsZjFAfJJ3c"
           },
           {
@@ -5424,7 +5995,7 @@
             },
             "publishedAt": "2019-10-09T19:44:43Z",
             "title": "Um Actually LIVE! @ Comic Con (NY)",
-            "number": -1,
+            "number": 11,
             "id": "3yQYVRzuP7M"
           },
           {
@@ -6022,7 +6593,7 @@
             },
             "publishedAt": "2021-10-21T17:25:05Z",
             "title": "The Haunting of Hill House, Hereditary, The Ring",
-            "number": -1,
+            "number": 19,
             "id": "qNGk80rTvOs"
           },
           {
@@ -6170,7 +6741,7 @@
             },
             "publishedAt": "2022-04-04T17:48:09Z",
             "title": "Journey, Freakazoid!, Seaman",
-            "number": -1,
+            "number": 7,
             "id": "2acQ6-gb2tE"
           },
           {
@@ -6821,6 +7392,66 @@
       "height": 720
     },
     "season": {
+      "1": {
+        "id": "PLuKg-WhduhknUrmt6iHEjL0AoZ42tylCn",
+        "episodes": [
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/w664JpkrDio/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2023-06-28T21:44:45Z",
+            "title": "Dimension 20: Dungeons and Drag Queens Trailer",
+            "number": -2,
+            "id": "w664JpkrDio"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/enkmpaU-alQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-09T19:38:01Z",
+            "title": "Queens on a Quest",
+            "number": 1,
+            "id": "enkmpaU-alQ"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/ErubCTReCbo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-09T19:38:19Z",
+            "title": "Welcome to the Underworld",
+            "number": 2,
+            "id": "ErubCTReCbo"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/iqcuWa7A_xo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-09T19:38:34Z",
+            "title": "The Time Has Come",
+            "number": 3,
+            "id": "iqcuWa7A_xo"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/xTvB04GcsUY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-04-09T19:38:48Z",
+            "title": "In the Heart of Death",
+            "number": 4,
+            "id": "xTvB04GcsUY"
+          }
+        ]
+      },
       "2": {
         "id": "PLuKg-WhduhknDmpFfFNRsW-H4chcPTDBF",
         "episodes": [
@@ -7042,7 +7673,7 @@
             },
             "publishedAt": "2023-12-14T23:07:28Z",
             "title": "Very Important People",
-            "number": -1,
+            "number": -2,
             "id": "O4uXcGhiLbo"
           },
           {
@@ -7064,7 +7695,7 @@
             },
             "publishedAt": "2023-12-22T18:31:09Z",
             "title": "Last Looks: Princess Emily",
-            "number": -1,
+            "number": -4,
             "id": "GRc3Zq421aQ"
           },
           {
@@ -7086,7 +7717,7 @@
             },
             "publishedAt": "2024-01-05T18:32:14Z",
             "title": "Last Looks: Denzel",
-            "number": -1,
+            "number": -4,
             "id": "Fh8V6vkp0-U"
           },
           {
@@ -7108,7 +7739,7 @@
             },
             "publishedAt": "2024-01-20T00:10:45Z",
             "title": "Last Looks: Vic's Ex Step-Grandmother",
-            "number": -1,
+            "number": -4,
             "id": "6fE4lxa_6rY"
           },
           {
@@ -7130,7 +7761,7 @@
             },
             "publishedAt": "2024-02-02T18:30:32Z",
             "title": "Last Looks: Marionette Conqui and Zonton de la Doll",
-            "number": -1,
+            "number": -4,
             "id": "EAThBVYo1TE"
           },
           {
@@ -7152,7 +7783,7 @@
             },
             "publishedAt": "2024-02-16T18:30:25Z",
             "title": "Last Looks: Kepl and Dr. Milk",
-            "number": -1,
+            "number": -4,
             "id": "De05yC7sy8Y"
           },
           {
@@ -7174,7 +7805,7 @@
             },
             "publishedAt": "2024-03-01T18:30:40Z",
             "title": "Last Looks: Tommy Shriggly",
-            "number": -1,
+            "number": -4,
             "id": "6ktl9VaQw3I"
           },
           {
@@ -7196,7 +7827,7 @@
             },
             "publishedAt": "2024-03-15T17:30:25Z",
             "title": "Last Looks: Professor Avery Goodman",
-            "number": -1,
+            "number": -4,
             "id": "2c0JwxzGb5M"
           },
           {
@@ -7218,7 +7849,7 @@
             },
             "publishedAt": "2024-03-29T17:30:19Z",
             "title": "Last Looks: Jasper and Casper",
-            "number": -1,
+            "number": -4,
             "id": "Ra287uegVE0"
           },
           {
@@ -7240,7 +7871,7 @@
             },
             "publishedAt": "2024-04-12T17:30:35Z",
             "title": "Last Looks: Leighanna-Jean Gruthers",
-            "number": -1,
+            "number": -4,
             "id": "6P7EUtufuLA"
           },
           {
@@ -7262,7 +7893,7 @@
             },
             "publishedAt": "2024-04-26T17:30:43Z",
             "title": "Last Looks: Pig #2",
-            "number": -1,
+            "number": -4,
             "id": "KxlqeZ3bwJg"
           },
           {
@@ -7284,7 +7915,7 @@
             },
             "publishedAt": "2024-05-10T17:30:25Z",
             "title": "Last Looks: Martha Tops and Lucian Azathoth",
-            "number": -1,
+            "number": -4,
             "id": "-IJQnQCg1NI"
           },
           {
@@ -7306,7 +7937,7 @@
             },
             "publishedAt": "2024-05-24T17:31:13Z",
             "title": "Last Looks: Augbert",
-            "number": -1,
+            "number": -4,
             "id": "6PpoS9nzWJk"
           },
           {
@@ -7355,7 +7986,7 @@
             },
             "publishedAt": "2024-11-08T18:30:41Z",
             "title": "Last Looks: Zeke Aaron McKinley",
-            "number": -1,
+            "number": -4,
             "id": "X_AmULvWUUA"
           },
           {
@@ -7377,7 +8008,7 @@
             },
             "publishedAt": "2024-11-22T18:30:34Z",
             "title": "Last Looks: Hayes Steele",
-            "number": -1,
+            "number": -4,
             "id": "6Iqx13qCu4o"
           },
           {
@@ -7399,7 +8030,7 @@
             },
             "publishedAt": "2024-12-06T18:31:14Z",
             "title": "Last Looks: Jukebox",
-            "number": -1,
+            "number": -4,
             "id": "OfoySuLJ-ro"
           },
           {
@@ -7421,7 +8052,7 @@
             },
             "publishedAt": "2024-12-20T18:30:39Z",
             "title": "Last Looks: Fourth Witch",
-            "number": -1,
+            "number": -4,
             "id": "VBouoyvBICU"
           },
           {
@@ -7443,7 +8074,7 @@
             },
             "publishedAt": "2025-01-13T18:14:38Z",
             "title": "Last Looks: Barbara and Bill",
-            "number": -1,
+            "number": -4,
             "id": "lam-pWnbaTo"
           },
           {
@@ -7465,7 +8096,7 @@
             },
             "publishedAt": "2025-01-17T18:30:34Z",
             "title": "Last Looks: Ta'Tania Jackson",
-            "number": -1,
+            "number": -4,
             "id": "gjPMy8D07Z0"
           },
           {
@@ -7487,7 +8118,7 @@
             },
             "publishedAt": "2025-01-31T18:30:06Z",
             "title": "Last Looks: Phoenix",
-            "number": -1,
+            "number": -4,
             "id": "WR30f3tBYeE"
           },
           {
@@ -7509,7 +8140,7 @@
             },
             "publishedAt": "2025-02-14T18:30:37Z",
             "title": "Last Looks: David Hoyle Jr.",
-            "number": -1,
+            "number": -4,
             "id": "7C7_1ouQX6c"
           },
           {
@@ -7531,7 +8162,7 @@
             },
             "publishedAt": "2025-02-28T18:30:37Z",
             "title": "Last Looks: Steffi Pops",
-            "number": -1,
+            "number": -4,
             "id": "5oGewH1jyeQ"
           },
           {
@@ -7553,7 +8184,7 @@
             },
             "publishedAt": "2025-03-14T17:30:39Z",
             "title": "Last Looks: Dan Wesley Sharron",
-            "number": -1,
+            "number": -4,
             "id": "gxQCyZ216Js"
           },
           {
@@ -7575,7 +8206,7 @@
             },
             "publishedAt": "2025-03-28T17:30:36Z",
             "title": "Last Looks: Skyler DeMarco",
-            "number": -1,
+            "number": -4,
             "id": "OdDYK8zMK3w"
           },
           {
@@ -7597,7 +8228,7 @@
             },
             "publishedAt": "2025-04-11T17:30:39Z",
             "title": "Last Looks: Jordache",
-            "number": -1,
+            "number": -4,
             "id": "tZa_dHzhbYI"
           },
           {
@@ -7619,7 +8250,7 @@
             },
             "publishedAt": "2025-04-25T17:30:49Z",
             "title": "Last Looks: Claude McCaw",
-            "number": -1,
+            "number": -4,
             "id": "tjkFZmV9I6A"
           },
           {
@@ -7641,7 +8272,7 @@
             },
             "publishedAt": "2025-05-09T17:30:53Z",
             "title": "Last Looks: Greg and Charlotte Excitement",
-            "number": -1,
+            "number": -4,
             "id": "jCk-RINdgr0"
           },
           {
@@ -7663,7 +8294,7 @@
             },
             "publishedAt": "2025-05-23T17:31:03Z",
             "title": "Last Looks: Candice",
-            "number": -1,
+            "number": -4,
             "id": "Cqe3Oqq-pAQ"
           },
           {
@@ -7685,7 +8316,7 @@
             },
             "publishedAt": "2025-06-06T17:30:12Z",
             "title": "Last Looks: Spencer",
-            "number": -1,
+            "number": -4,
             "id": "3487WEszg28"
           },
           {
@@ -7803,6 +8434,55 @@
       "height": 720
     },
     "season": {
+      "1": {
+        "id": "PLuKg-Whduhkk7a9GbnMsrO6wbT1iP4cAG",
+        "episodes": [
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/HSV2WQnH_A0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-06-30T21:28:10Z",
+            "title": "The Chosen Ones",
+            "number": 1,
+            "id": "HSV2WQnH_A0"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Y5gw8bpe1Bc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-07-12T20:01:11Z",
+            "title": "Class Conflict",
+            "number": 2,
+            "id": "Y5gw8bpe1Bc"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/R3hq2zf55SE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-07-14T22:53:32Z",
+            "title": "Family On Six",
+            "number": 3,
+            "id": "R3hq2zf55SE"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/nyEunKC1Y70/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-07-21T22:19:10Z",
+            "title": "We're the Heroes",
+            "number": 4,
+            "id": "nyEunKC1Y70"
+          }
+        ]
+      },
       "2": {
         "id": "PLuKg-WhduhkkHWhaVwAAN1wHxSCbs6nA9",
         "episodes": [
@@ -7946,7 +8626,7 @@
             },
             "publishedAt": "2024-09-18T17:30:28Z",
             "title": "Behind the Scenes: Brennan Lee Mulligan",
-            "number": -1,
+            "number": -3,
             "id": "P373-rjCxUM"
           },
           {
@@ -7957,7 +8637,7 @@
             },
             "publishedAt": "2024-09-19T17:30:28Z",
             "title": "Behind the Scenes: Erika Ishii",
-            "number": -1,
+            "number": -3,
             "id": "8W1aWC7x3qM"
           },
           {
@@ -7968,7 +8648,7 @@
             },
             "publishedAt": "2024-09-20T17:30:28Z",
             "title": "Behind the Scenes: Danielle Radford",
-            "number": -1,
+            "number": -3,
             "id": "caZrrKFXg-Y"
           },
           {
@@ -7979,7 +8659,7 @@
             },
             "publishedAt": "2024-09-23T17:31:34Z",
             "title": "Behind the Scenes: Lou Wilson",
-            "number": -1,
+            "number": -3,
             "id": "7eIsBXFteW0"
           },
           {
@@ -7990,7 +8670,7 @@
             },
             "publishedAt": "2024-09-24T17:30:35Z",
             "title": "Behind the Scenes: Aabria Iyengar",
-            "number": -1,
+            "number": -3,
             "id": "Pw9NcLUPZeE"
           },
           {
@@ -8001,7 +8681,7 @@
             },
             "publishedAt": "2024-12-11T18:30:54Z",
             "title": "Behind the Scenes: The Crew",
-            "number": -1,
+            "number": -3,
             "id": "l51NKtzVd_8"
           },
           {
@@ -8012,100 +8692,8 @@
             },
             "publishedAt": "2024-09-12T17:09:54Z",
             "title": "Dimension 20: Misfits and Magic Season 1 Recap",
-            "number": -1,
+            "number": -4,
             "id": "4nnkns2w8tU"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "title": "Dimension 20 Live: Time Quangle",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/fi9jQrvdAuY/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-Whduhkn5XMejhfiJZldln4deNIbR",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/fi9jQrvdAuY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-09-12T17:03:32Z",
-            "title": "Dimension 20: Time Quangle Trailer",
-            "number": -2,
-            "id": "fi9jQrvdAuY"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Agd9-pmlC1U/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-09-12T23:00:49Z",
-            "title": "Quangle in Queal Quife",
-            "number": 1,
-            "id": "Agd9-pmlC1U"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/s3XsXjWo2qs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-09-19T23:00:38Z",
-            "title": "Betrayed by Live Theatre",
-            "number": 2,
-            "id": "s3XsXjWo2qs"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/s80WpHyuDpQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-12-12T18:30:51Z",
-            "title": "A Candied Coup",
-            "number": 3,
-            "id": "s80WpHyuDpQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/V5OlQHo4pBM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-12-19T18:30:56Z",
-            "title": "The EnWoodening",
-            "number": 4,
-            "id": "V5OlQHo4pBM"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/6VGeqnmy83M/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-12-26T18:30:33Z",
-            "title": "The Wrong Kids",
-            "number": 5,
-            "id": "6VGeqnmy83M"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/sZhvpZmSt8U/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-12-26T18:31:02Z",
-            "title": "A New York Quangle",
-            "number": 6,
-            "id": "sZhvpZmSt8U"
           }
         ]
       }
@@ -8732,7 +9320,7 @@
             },
             "publishedAt": "2024-09-27T23:00:42Z",
             "title": "That's Kinda Hot (Test Episode)",
-            "number": -1,
+            "number": -4,
             "id": "vaVW-OQxPWI"
           }
         ]
@@ -8740,7 +9328,7 @@
     }
   },
   {
-    "title": "Dimension 20: Never Stop Blowing Up",
+    "title": "Dimension 20 Never Stop Blowing Up",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/xYeXpbHnGEM/maxresdefault.jpg",
       "width": 1280,
@@ -9469,7 +10057,7 @@
             },
             "publishedAt": "2024-06-12T17:30:29Z",
             "title": "Get Your Act Together with Hank Green",
-            "number": -1,
+            "number": -4,
             "id": "OsMisAQ74Q0"
           },
           {
@@ -9480,7 +10068,7 @@
             },
             "publishedAt": "2024-06-21T23:01:20Z",
             "title": "Hank Green: Pissing Out Cancer",
-            "number": -1,
+            "number": -4,
             "id": "0RKtX6u4DnM"
           },
           {
@@ -9491,7 +10079,7 @@
             },
             "publishedAt": "2024-07-15T17:31:24Z",
             "title": "Get Your Act Together with Brennan and Izzy [Dropout Presents Behind The Scenes]",
-            "number": -1,
+            "number": -3,
             "id": "LhyZ98_J7qI"
           },
           {
@@ -9502,7 +10090,7 @@
             },
             "publishedAt": "2024-07-25T23:01:45Z",
             "title": "Bigger! With Brennan and Izzy",
-            "number": -1,
+            "number": -4,
             "id": "PezIGhC2hGI"
           },
           {
@@ -9513,7 +10101,7 @@
             },
             "publishedAt": "2024-08-09T21:18:35Z",
             "title": "Get Your Act Together with Chris Grace [Dropout Presents Behind The Scenes]",
-            "number": -1,
+            "number": -3,
             "id": "MJrH7UVhd78"
           },
           {
@@ -9524,7 +10112,7 @@
             },
             "publishedAt": "2024-09-06T18:56:35Z",
             "title": "Chris Grace: As Scarlett Johansson",
-            "number": -1,
+            "number": -4,
             "id": "hwGXwcz3TDI"
           },
           {
@@ -9535,7 +10123,7 @@
             },
             "publishedAt": "2024-09-06T17:30:36Z",
             "title": "Get Your Act Together with Adam Conover",
-            "number": -1,
+            "number": -4,
             "id": "OMgdC8HDOZ0"
           },
           {
@@ -9546,7 +10134,7 @@
             },
             "publishedAt": "2024-09-18T23:01:24Z",
             "title": "Adam Conover: Unmedicated",
-            "number": -1,
+            "number": -4,
             "id": "n77kSA7rNa8"
           },
           {
@@ -9557,7 +10145,7 @@
             },
             "publishedAt": "2024-10-07T19:17:33Z",
             "title": "Get Your Act Together with Courtney Pauroso [Dropout Presents Behind The Scenes]",
-            "number": -1,
+            "number": -3,
             "id": "6m76IE-0mvc"
           },
           {
@@ -9568,7 +10156,7 @@
             },
             "publishedAt": "2024-10-18T23:01:12Z",
             "title": "Courtney Pauroso: Vanessa 5000",
-            "number": -1,
+            "number": -4,
             "id": "TDIl5e_0jYk"
           },
           {
@@ -9579,7 +10167,7 @@
             },
             "publishedAt": "2024-10-31T18:21:09Z",
             "title": "Get Your Act Together with Ally Beardsley and Zac Oyama [Dropout Presents Behind The Scenes]",
-            "number": -1,
+            "number": -3,
             "id": "yrbnquezFYA"
           },
           {
@@ -9590,7 +10178,7 @@
             },
             "publishedAt": "2024-11-16T00:01:00Z",
             "title": "From Ally to Zacky",
-            "number": -1,
+            "number": -4,
             "id": "uMTGOlQ8FNY"
           },
           {
@@ -9601,7 +10189,7 @@
             },
             "publishedAt": "2024-12-02T18:35:59Z",
             "title": "Get Your Act Together with The Big Team [Dropout Presents Behind The Scenes]",
-            "number": -1,
+            "number": -3,
             "id": "h3rrJzkTZG8"
           },
           {
@@ -9612,7 +10200,7 @@
             },
             "publishedAt": "2024-12-17T00:00:46Z",
             "title": "The Big Team",
-            "number": -1,
+            "number": -4,
             "id": "0gGCcEvk3xI"
           },
           {
@@ -9623,7 +10211,7 @@
             },
             "publishedAt": "2025-02-21T18:31:08Z",
             "title": "From Ally to Zacky: A Bonus Tracky",
-            "number": -1,
+            "number": -4,
             "id": "z_63RrmPHGw"
           },
           {
@@ -9634,7 +10222,7 @@
             },
             "publishedAt": "2025-03-28T22:49:55Z",
             "title": "Get Your Act Together with Cameron Esposito [Dropout Presents Behind The Scenes]",
-            "number": -1,
+            "number": -3,
             "id": "q3AgIZwrcwE"
           },
           {
@@ -9645,7 +10233,7 @@
             },
             "publishedAt": "2025-04-11T23:00:59Z",
             "title": "Cameron Esposito: Four Pills",
-            "number": -1,
+            "number": -4,
             "id": "c38FM75jOwI"
           }
         ]
@@ -9763,7 +10351,7 @@
             },
             "publishedAt": "2018-10-16T18:04:16Z",
             "title": "The Don't Laugh Newsroom Challenge",
-            "number": -1,
+            "number": 1,
             "id": "12HXd74txLw"
           },
           {
@@ -9774,7 +10362,7 @@
             },
             "publishedAt": "2018-10-16T18:04:16Z",
             "title": "The Don't Laugh Newsroom Challenge: Episode 2",
-            "number": -1,
+            "number": 2,
             "id": "ehpmyxH3PLA"
           },
           {
@@ -9785,7 +10373,7 @@
             },
             "publishedAt": "2020-04-02T20:16:04Z",
             "title": "Don't Laugh News: Bed Bug Alert!",
-            "number": -1,
+            "number": 3,
             "id": "Br9bUTdKu0U"
           },
           {
@@ -9796,7 +10384,7 @@
             },
             "publishedAt": "2018-10-16T18:04:16Z",
             "title": "Birthday Cake Bird Birth",
-            "number": -1,
+            "number": 4,
             "id": "lfv2slVWSRs"
           }
         ]
@@ -10108,36 +10696,14 @@
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/PC-bAvWw2RY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2020-03-30T07:01:39Z",
-            "title": "News Crew Plans Terrible Trip to the Beach",
-            "number": 5,
-            "id": "PC-bAvWw2RY"
-          },
-          {
-            "thumbnails": {
               "url": "https://i.ytimg.com/vi/qMQR_ez7lyE/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
             "publishedAt": "2020-04-06T06:57:51Z",
             "title": "Announcing Frozen 3, Based on the Novel \"Push\" by Sapphire",
-            "number": 6,
+            "number": 5,
             "id": "qMQR_ez7lyE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/8v31H7xse5Q/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2020-04-15T00:28:03Z",
-            "title": "Special Musical Broadcast Really Wails",
-            "number": 7,
-            "id": "8v31H7xse5Q"
           },
           {
             "thumbnails": {
@@ -10147,8 +10713,30 @@
             },
             "publishedAt": "2020-04-27T23:05:12Z",
             "title": "BTK Killer Gives a Foreboding Weather Forecast",
-            "number": 9,
+            "number": 6,
             "id": "40aicHJaCAQ"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/PC-bAvWw2RY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2020-03-30T07:01:39Z",
+            "title": "News Crew Plans Terrible Trip to the Beach",
+            "number": 7,
+            "id": "PC-bAvWw2RY"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/8v31H7xse5Q/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2020-04-15T00:28:03Z",
+            "title": "Special Musical Broadcast Really Wails",
+            "number": 8,
+            "id": "8v31H7xse5Q"
           },
           {
             "thumbnails": {
@@ -10191,7 +10779,7 @@
             },
             "publishedAt": "2020-05-25T23:12:30Z",
             "title": "God Does a Really Mean Impression of John Lithgow",
-            "number": -1,
+            "number": 13,
             "id": "4SoHQSNfOuI"
           },
           {
@@ -10213,8 +10801,52 @@
             },
             "publishedAt": "2020-06-22T23:41:21Z",
             "title": "Hot Dogs Are Made From People (But Still Tasty)",
-            "number": 17,
+            "number": 15,
             "id": "E4ofpttqMms"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/fz3ayyI1kiU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-02-28T18:30:35Z",
+            "title": "Good Morning, River View High!",
+            "number": 16,
+            "id": "fz3ayyI1kiU"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/i5yDgJjfe5w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-03-27T17:30:07Z",
+            "title": "Welcome to Bug News",
+            "number": 17,
+            "id": "i5yDgJjfe5w"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/L7vkadQZbeE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-07-28T17:30:00Z",
+            "title": "Brian Hitler Is One of the 10 Worst Brians",
+            "number": 18,
+            "id": "L7vkadQZbeE"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/N66TQDa7ym0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2023-11-29T18:30:14Z",
+            "title": "I'm Getting a FaceTime From a Greasy Little Puppet",
+            "number": 19,
+            "id": "N66TQDa7ym0"
           },
           {
             "thumbnails": {
@@ -10246,7 +10878,7 @@
             },
             "publishedAt": "2020-08-03T22:59:38Z",
             "title": "Spit In Your Hand To Honor the Troops",
-            "number": 23,
+            "number": 22,
             "id": "vfrRKA2-OJo"
           },
           {
@@ -10257,7 +10889,7 @@
             },
             "publishedAt": "2020-08-10T23:24:32Z",
             "title": "True Confessions of Real Newscasters",
-            "number": 24,
+            "number": 23,
             "id": "HnsKu2E3_Xw"
           },
           {
@@ -10268,7 +10900,7 @@
             },
             "publishedAt": "2020-08-17T23:00:52Z",
             "title": "Making Peanut Butter Sandwiches With a Bowling Ball",
-            "number": 25,
+            "number": 24,
             "id": "Mu9WENJ2zqo"
           },
           {
@@ -10279,7 +10911,7 @@
             },
             "publishedAt": "2020-08-24T23:10:21Z",
             "title": "Huge Idiot Climbs Mount Everest",
-            "number": 26,
+            "number": 25,
             "id": "MSOy6Sp24k4"
           }
         ]
@@ -10306,7 +10938,7 @@
             },
             "publishedAt": "2021-05-14T23:15:29Z",
             "title": "Grant Anthony O'Brien Has a Mouthful of Water",
-            "number": -1,
+            "number": 2,
             "id": "6G1f5PJjq6o"
           },
           {
@@ -10934,363 +11566,7 @@
     }
   },
   {
-    "title": "Dimension 20: Fantasy High Junior Year",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/8Jr7dyVCmFM/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-Whduhklj1Dpe8NN7__nLxGoaOUMl",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/8Jr7dyVCmFM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-03T19:38:01Z",
-            "title": "Dimension 20: Fantasy High Junior Year Trailer [Dropout Exclusive Series]",
-            "number": -2,
-            "id": "8Jr7dyVCmFM"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/hGC6SnNAwC0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-11T00:01:05Z",
-            "title": "Summer Scaries",
-            "number": 1,
-            "id": "hGC6SnNAwC0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/1KEyu8OKKGs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-18T00:00:49Z",
-            "title": "Summer Breakdown",
-            "number": 2,
-            "id": "1KEyu8OKKGs"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/8aXfZrmDSrg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-25T00:01:16Z",
-            "title": "Not All Who Wanda Are Lost",
-            "number": 3,
-            "id": "8aXfZrmDSrg"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Wq2Drxoa71s/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-02-01T00:00:35Z",
-            "title": "Under Pressure",
-            "number": 4,
-            "id": "Wq2Drxoa71s"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/yXv4C4_aZvE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-02-08T00:00:51Z",
-            "title": "Mall Madness",
-            "number": 5,
-            "id": "yXv4C4_aZvE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/lviNn1XG5W0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-02-15T00:00:53Z",
-            "title": "Party Politics",
-            "number": 6,
-            "id": "lviNn1XG5W0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/0bXhR2zLCEI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-02-22T00:01:18Z",
-            "title": "Stress Tested",
-            "number": 7,
-            "id": "0bXhR2zLCEI"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/ojesrO8BKsc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-02-29T00:00:34Z",
-            "title": "Fracas at the Frostyfaire Folk Festival",
-            "number": 8,
-            "id": "ojesrO8BKsc"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Z7-0FL5NzK4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-03-07T00:00:23Z",
-            "title": "Vulture Clash",
-            "number": 9,
-            "id": "Z7-0FL5NzK4"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/xIOsqw6amno/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-03-13T23:00:47Z",
-            "title": "Cursed Out",
-            "number": 10,
-            "id": "xIOsqw6amno"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/pHdgLMURTOE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-03-20T23:00:28Z",
-            "title": "A Very Merry Moonar Yulenear",
-            "number": 11,
-            "id": "pHdgLMURTOE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/3ov3CHJwzyk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-03-27T23:01:01Z",
-            "title": "Baron's Game",
-            "number": 12,
-            "id": "3ov3CHJwzyk"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/m9K0cd1eGEU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-03T23:00:42Z",
-            "title": "Infernal Conflict",
-            "number": 13,
-            "id": "m9K0cd1eGEU"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/GXBFBFILA0w/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-10T23:00:35Z",
-            "title": "Dawn of Justice",
-            "number": 14,
-            "id": "GXBFBFILA0w"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/oxH9doMDPA0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-17T23:00:14Z",
-            "title": "The Last Stand",
-            "number": 15,
-            "id": "oxH9doMDPA0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/h6HELaypwZA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-24T23:01:49Z",
-            "title": "Untapped Rage",
-            "number": 16,
-            "id": "h6HELaypwZA"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/tN7yE6AfgQc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-05-01T23:01:15Z",
-            "title": "The Name",
-            "number": 17,
-            "id": "tN7yE6AfgQc"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/htGXHSXtpgk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-05-08T23:00:30Z",
-            "title": "Rock the Boat",
-            "number": 18,
-            "id": "htGXHSXtpgk"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/29lnaIZg1k4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-05-15T23:00:35Z",
-            "title": "Ragenarok (Part 1)",
-            "number": 19,
-            "id": "29lnaIZg1k4"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/2h7UiPED-vQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-05-22T23:00:31Z",
-            "title": "Ragenarok (Part 2)",
-            "number": 20,
-            "id": "2h7UiPED-vQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/bqbxzQi1GZ0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-03T18:31:04Z",
-            "title": "Behind the Scenes: Emily Axford",
-            "number": -1,
-            "id": "bqbxzQi1GZ0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/fp8xmNuUFJQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-04T18:31:05Z",
-            "title": "Behind the Scenes: Ally Beardsley",
-            "number": -1,
-            "id": "fp8xmNuUFJQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/ZiGCowSL1wc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-05T18:30:20Z",
-            "title": "Behind the Scenes: Brian Murphy",
-            "number": -1,
-            "id": "ZiGCowSL1wc"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/0N_cc60DP10/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-06T18:37:49Z",
-            "title": "Behind the Scenes: Zac Oyama",
-            "number": -1,
-            "id": "0N_cc60DP10"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/E6NL9AjoGPM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-07T18:30:51Z",
-            "title": "Behind the Scenes: Siobhan Thompson",
-            "number": -1,
-            "id": "E6NL9AjoGPM"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Gl3uIEk7aq0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-08T18:30:53Z",
-            "title": "Behind the Scenes: Lou Wilson",
-            "number": -1,
-            "id": "Gl3uIEk7aq0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/g722RMM-OsA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-09T18:30:35Z",
-            "title": "Behind the Scenes: Brennan Lee Mulligan",
-            "number": -1,
-            "id": "g722RMM-OsA"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/qhP2LbISdzw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-05-29T17:30:53Z",
-            "title": "Behind the Scenes: The Crew",
-            "number": -1,
-            "id": "qhP2LbISdzw"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/hnHhTAvbqlU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-01-10T18:30:28Z",
-            "title": "Teenage Rebellion [Official Music Video - Sarah Barrios]",
-            "number": -1,
-            "id": "hnHhTAvbqlU"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/qmRyK1xrlI4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-03-18T17:32:23Z",
-            "title": "Dimension 20: Fantasy High Junior Year Mid Season Recap",
-            "number": -1,
-            "id": "qmRyK1xrlI4"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "title": "Dimension 20: Burrow's End",
+    "title": "Dimension 20 Burrow's End",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/77sEmjobpjg/maxresdefault.jpg",
       "width": 1280,
@@ -11426,7 +11702,7 @@
     }
   },
   {
-    "title": "Dimension 20: Mentopolis",
+    "title": "Dimension 20 Mentopolis",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/9riE94Kkwq4/maxresdefault.jpg",
       "width": 1280,
@@ -11512,76 +11788,6 @@
             "title": "Case Closed",
             "number": 6,
             "id": "e_AudUzv2-U"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "title": "Dimension 20: Dungeons and Drag Queens",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/w664JpkrDio/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-WhduhknUrmt6iHEjL0AoZ42tylCn",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/w664JpkrDio/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2023-06-28T21:44:45Z",
-            "title": "Dimension 20: Dungeons and Drag Queens Trailer",
-            "number": -2,
-            "id": "w664JpkrDio"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/enkmpaU-alQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-09T19:38:01Z",
-            "title": "Queens on a Quest",
-            "number": 1,
-            "id": "enkmpaU-alQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/ErubCTReCbo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-09T19:38:19Z",
-            "title": "Welcome to the Underworld",
-            "number": 2,
-            "id": "ErubCTReCbo"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/iqcuWa7A_xo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-09T19:38:34Z",
-            "title": "The Time Has Come",
-            "number": 3,
-            "id": "iqcuWa7A_xo"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/xTvB04GcsUY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2024-04-09T19:38:48Z",
-            "title": "In the Heart of Death",
-            "number": 4,
-            "id": "xTvB04GcsUY"
           }
         ]
       }
@@ -11795,7 +12001,7 @@
     }
   },
   {
-    "title": "Dimension 20: The Ravening War",
+    "title": "Dimension 20 The Ravening War",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/3WGeM64PEHY/sddefault.jpg",
       "width": 640,
@@ -11885,7 +12091,7 @@
             },
             "publishedAt": "2023-05-03T23:00:26Z",
             "title": "Behind the Scenes: How It Began",
-            "number": -1,
+            "number": -3,
             "id": "zplZEDC-nj4"
           },
           {
@@ -11896,7 +12102,7 @@
             },
             "publishedAt": "2023-06-21T23:00:03Z",
             "title": "Behind the Scenes: The Cast",
-            "number": -1,
+            "number": -3,
             "id": "c8UfbrcV-X4"
           },
           {
@@ -11907,7 +12113,7 @@
             },
             "publishedAt": "2023-06-21T23:00:23Z",
             "title": "Behind the Scenes: The Art Team",
-            "number": -1,
+            "number": -3,
             "id": "ZuQbPO9XREs"
           }
         ]
@@ -11915,7 +12121,7 @@
     }
   },
   {
-    "title": "Game Changer: Battle Royale",
+    "title": "Game Changer Battle Royale",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/kexZC6icLK4/maxresdefault.jpg",
       "width": 1280,
@@ -11985,7 +12191,7 @@
     }
   },
   {
-    "title": "Dimension 20: Neverafter",
+    "title": "Dimension 20 Neverafter",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/iVsPeg6XT_4/maxresdefault.jpg",
       "width": 1280,
@@ -12231,7 +12437,7 @@
     }
   },
   {
-    "title": "Dimension 20: A Court of Fey & Flowers",
+    "title": "Dimension 20 A Court of Fey & Flowers",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/fPs4fn88hfc/maxresdefault.jpg",
       "width": 1280,
@@ -12367,7 +12573,7 @@
     }
   },
   {
-    "title": "Dimension 20: Coffin Run",
+    "title": "Dimension 20 Coffin Run",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/mLkexago-CI/maxresdefault.jpg",
       "width": 1280,
@@ -12459,7 +12665,7 @@
     }
   },
   {
-    "title": "Dimension 20: A Starstruck Odyssey",
+    "title": "Dimension 20 A Starstruck Odyssey",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/Ai17lla31aU/maxresdefault.jpg",
       "width": 1280,
@@ -12477,7 +12683,7 @@
             },
             "publishedAt": "2021-12-30T00:02:02Z",
             "title": "Starstruck Origins with Elaine Lee (Part 1)",
-            "number": -1,
+            "number": -4,
             "id": "Ai17lla31aU"
           },
           {
@@ -12488,7 +12694,7 @@
             },
             "publishedAt": "2022-01-05T17:28:46Z",
             "title": "Starstruck Origins with Elaine Lee (Part 2)",
-            "number": -1,
+            "number": -4,
             "id": "FfUHiMnkNoQ"
           },
           {
@@ -12697,7 +12903,7 @@
             },
             "publishedAt": "2022-05-16T18:25:56Z",
             "title": "Starstruck Post Season Talkback With Elaine Lee",
-            "number": -1,
+            "number": -4,
             "id": "VLwPItrMW9M"
           },
           {
@@ -12708,7 +12914,7 @@
             },
             "publishedAt": "2022-05-24T16:27:51Z",
             "title": "A Starstruck Odyssey: Behind the Scenes",
-            "number": -1,
+            "number": -3,
             "id": "B9ne6D-Sfsk"
           }
         ]
@@ -12716,7 +12922,7 @@
     }
   },
   {
-    "title": "Dimension 20: Shriek Week",
+    "title": "Dimension 20 Shriek Week",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/JqMPN9_5OG8/maxresdefault.jpg",
       "width": 1280,
@@ -12900,7 +13106,7 @@
     }
   },
   {
-    "title": "Dimension 20: The Seven",
+    "title": "Dimension 20 The Seven",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/REYMCBoByAs/maxresdefault.jpg",
       "width": 1280,
@@ -13037,146 +13243,14 @@
         "episodes": [
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/fR2kTFlbKwA/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/PWvqA_Ib_uY/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2024-01-23T18:30:10Z",
-            "title": "Riz and Baron",
-            "number": 15,
-            "id": "fR2kTFlbKwA"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/b7XU1jKxEsU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2023-10-18T17:30:25Z",
-            "title": "Cinderella's Mice Are Traumatized",
-            "number": 14,
-            "id": "b7XU1jKxEsU"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/pfufHGSaBkY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-12-20T18:30:42Z",
-            "title": "The Lords of the Wing Spill Their Secrets",
-            "number": 13,
-            "id": "pfufHGSaBkY"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/3RMIhKC-Dvk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-10-04T16:59:21Z",
-            "title": "Evan Kelmp Blasts a Kid Into the Underworld",
-            "number": 12,
-            "id": "3RMIhKC-Dvk"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/L8_hld6RW6s/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-08-01T17:25:03Z",
-            "title": "Gunnie Buys a Maple Cake",
-            "number": 11,
-            "id": "L8_hld6RW6s"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/4We1ITzYonE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-05-31T14:39:05Z",
-            "title": "The Magic of Plug",
-            "number": 9,
-            "id": "4We1ITzYonE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/4bJ3Hr5bi6s/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-05-05T17:23:10Z",
-            "title": "Liam Tries To Flirt",
-            "number": 10,
-            "id": "4bJ3Hr5bi6s"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/xZu1uCAyU5A/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-03-28T17:46:01Z",
-            "title": "Casting Silence",
-            "number": 8,
-            "id": "xZu1uCAyU5A"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/bkdkqGPdXBI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-02-14T19:27:59Z",
-            "title": "A Drink at the Questing Beast",
-            "number": 7,
-            "id": "bkdkqGPdXBI"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/pi54L4C_2K8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2022-01-10T19:03:28Z",
-            "title": "Meet Bob",
-            "number": 6,
-            "id": "pi54L4C_2K8"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/y6UJtVbY-Yw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-12-06T19:54:30Z",
-            "title": "Where's Your Bulb Now?",
-            "number": 5,
-            "id": "y6UJtVbY-Yw"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/XvJ6cKf23DY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-02T22:48:22Z",
-            "title": "The Price Must Be Paid",
-            "number": 4,
-            "id": "XvJ6cKf23DY"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/mPHs6O1nMsk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-10-05T16:28:05Z",
-            "title": "Cody Sells His Soul",
-            "number": 3,
-            "id": "mPHs6O1nMsk"
+            "publishedAt": "2021-08-03T17:30:01Z",
+            "title": "Rick Diggins Is At Your Service",
+            "number": 1,
+            "id": "PWvqA_Ib_uY"
           },
           {
             "thumbnails": {
@@ -13191,80 +13265,153 @@
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/PWvqA_Ib_uY/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/mPHs6O1nMsk/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-08-03T17:30:01Z",
-            "title": "Rick Diggins Is At Your Service",
-            "number": 1,
-            "id": "PWvqA_Ib_uY"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "title": "Dimension 20: Misfits And Magic",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/HSV2WQnH_A0/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-Whduhkk7a9GbnMsrO6wbT1iP4cAG",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/HSV2WQnH_A0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-06-30T21:28:10Z",
-            "title": "The Chosen Ones",
-            "number": 1,
-            "id": "HSV2WQnH_A0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Y5gw8bpe1Bc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-07-12T20:01:11Z",
-            "title": "Class Conflict",
-            "number": 2,
-            "id": "Y5gw8bpe1Bc"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/R3hq2zf55SE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-07-14T22:53:32Z",
-            "title": "Family On Six",
+            "publishedAt": "2021-10-05T16:28:05Z",
+            "title": "Cody Sells His Soul",
             "number": 3,
-            "id": "R3hq2zf55SE"
+            "id": "mPHs6O1nMsk"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/nyEunKC1Y70/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/XvJ6cKf23DY/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-07-21T22:19:10Z",
-            "title": "We're the Heroes",
+            "publishedAt": "2021-11-02T22:48:22Z",
+            "title": "The Price Must Be Paid",
             "number": 4,
-            "id": "nyEunKC1Y70"
+            "id": "XvJ6cKf23DY"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/y6UJtVbY-Yw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2021-12-06T19:54:30Z",
+            "title": "Where's Your Bulb Now?",
+            "number": 5,
+            "id": "y6UJtVbY-Yw"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/pi54L4C_2K8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-01-10T19:03:28Z",
+            "title": "Meet Bob",
+            "number": 6,
+            "id": "pi54L4C_2K8"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/bkdkqGPdXBI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-02-14T19:27:59Z",
+            "title": "A Drink at the Questing Beast",
+            "number": 7,
+            "id": "bkdkqGPdXBI"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/xZu1uCAyU5A/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-03-28T17:46:01Z",
+            "title": "Casting Silence",
+            "number": 8,
+            "id": "xZu1uCAyU5A"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/4bJ3Hr5bi6s/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-05-05T17:23:10Z",
+            "title": "Liam Tries To Flirt",
+            "number": 10,
+            "id": "4bJ3Hr5bi6s"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/4We1ITzYonE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-05-31T14:39:05Z",
+            "title": "The Magic of Plug",
+            "number": 9,
+            "id": "4We1ITzYonE"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/L8_hld6RW6s/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-08-01T17:25:03Z",
+            "title": "Gunnie Buys a Maple Cake",
+            "number": 11,
+            "id": "L8_hld6RW6s"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/3RMIhKC-Dvk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-10-04T16:59:21Z",
+            "title": "Evan Kelmp Blasts a Kid Into the Underworld",
+            "number": 12,
+            "id": "3RMIhKC-Dvk"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/pfufHGSaBkY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2022-12-20T18:30:42Z",
+            "title": "The Lords of the Wing Spill Their Secrets",
+            "number": 13,
+            "id": "pfufHGSaBkY"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/b7XU1jKxEsU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2023-10-18T17:30:25Z",
+            "title": "Cinderella's Mice Are Traumatized",
+            "number": 14,
+            "id": "b7XU1jKxEsU"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/fR2kTFlbKwA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2024-01-23T18:30:10Z",
+            "title": "Riz and Baron",
+            "number": 15,
+            "id": "fR2kTFlbKwA"
           }
         ]
       }
     }
   },
   {
-    "title": "Dimension 20: Mice & Murder",
+    "title": "Dimension 20 Mice & Murder",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/3uUfFTNeSLg/maxresdefault.jpg",
       "width": 1280,
@@ -13389,7 +13536,7 @@
     }
   },
   {
-    "title": "Dimension 20: The Unsleeping City Chapter 2",
+    "title": "Dimension 20 The Unsleeping City",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/wfcwB10zZFM/maxresdefault.jpg",
       "width": 1280,
@@ -13397,212 +13544,300 @@
     },
     "season": {
       "1": {
-        "id": "PLuKg-WhduhknGm7zewN43Xm_H9DrW4Y2z",
+        "id": "PLuKg-WhduhkmJU5myEzM82EXNna99ykgC",
         "episodes": [
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/wfcwB10zZFM/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/MljQci1IM5E/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-11-11T23:39:32Z",
-            "title": "The Fall of New York City",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Start Spreading the News",
             "number": 1,
-            "id": "wfcwB10zZFM"
+            "id": "MljQci1IM5E"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Zacas5bn0Y4/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Dw_d4wBqL9c/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-11-18T23:43:01Z",
-            "title": "Heaven and Hell On Earth",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Mutant Santa Melee",
             "number": 2,
-            "id": "Zacas5bn0Y4"
+            "id": "Dw_d4wBqL9c"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/EUtbkIyYbSs/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/jqH9y97Ui3I/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-11-26T00:04:58Z",
-            "title": "The Mystery of the Haunted Subway",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Pigeon Plus Ones",
             "number": 3,
-            "id": "EUtbkIyYbSs"
+            "id": "jqH9y97Ui3I"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/sM9t4jCeL_o/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Q8JwkP_kSZE/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-12-03T00:05:22Z",
-            "title": "We Need To Talk About Cody",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Scramble in the Sewers",
             "number": 4,
-            "id": "sM9t4jCeL_o"
+            "id": "Q8JwkP_kSZE"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/gmU6DEXP4Q0/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/B_vp3eBd0bY/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-12-10T00:05:23Z",
-            "title": "Trouble at the Tunnel",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "A New York Wedding",
             "number": 5,
-            "id": "gmU6DEXP4Q0"
+            "id": "B_vp3eBd0bY"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/AvwtIPtuWvQ/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/hVepp_ZIsow/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-12-17T00:01:55Z",
-            "title": "Collaborators",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "The War of Bugs and Rats",
             "number": 6,
-            "id": "AvwtIPtuWvQ"
+            "id": "hVepp_ZIsow"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/d7HNkywItkU/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/gGAofBHh6xI/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-12-24T00:02:53Z",
-            "title": "Parade of Peril",
-            "number": -1,
-            "id": "d7HNkywItkU"
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "We Need to Talk About Pete",
+            "number": 7,
+            "id": "gGAofBHh6xI"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/hdv8-A75yEc/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/xEiV1g47knQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2020-12-31T00:00:09Z",
-            "title": "Feasts & Families",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Subway Skirmish",
             "number": 8,
-            "id": "hdv8-A75yEc"
+            "id": "xEiV1g47knQ"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/LW1MkDhYTog/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Wdq0TbScLNY/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-01-06T23:47:37Z",
-            "title": "Fight at the Museum",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Borough of Dreams",
             "number": 9,
-            "id": "LW1MkDhYTog"
+            "id": "Wdq0TbScLNY"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Kff_E0jrPxU/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G7kRjdUier0/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-01-14T00:00:08Z",
-            "title": "Nulla Dies Umquam Memori Vos Eximet Aevo",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Panic at the Art Show",
             "number": 10,
-            "id": "Kff_E0jrPxU"
+            "id": "G7kRjdUier0"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/HmSG1F97z1A/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/hFPUKQmWQ3M/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-01-21T00:09:27Z",
-            "title": "Let's Get Tiny",
+            "publishedAt": "2019-09-12T20:11:29Z",
+            "title": "Home for the Holidays",
             "number": 11,
-            "id": "HmSG1F97z1A"
+            "id": "hFPUKQmWQ3M"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/VEiSV8faeU0/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Bvyhoy10d_k/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-01-28T00:03:44Z",
-            "title": "The Battle of the Hot Dog Cart",
+            "publishedAt": "2019-09-24T16:16:12Z",
+            "title": "Broadway Brawl",
             "number": 12,
-            "id": "VEiSV8faeU0"
+            "id": "Bvyhoy10d_k"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/dKLW2EgEmEo/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/AKly1A7McNA/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-02-03T23:58:16Z",
-            "title": "Of Rats & Dragons",
+            "publishedAt": "2019-10-01T16:08:55Z",
+            "title": "Faeries and Feces",
             "number": 13,
-            "id": "dKLW2EgEmEo"
+            "id": "AKly1A7McNA"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/CfldRVNPXNk/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/YGXoJ7KqXaQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-02-10T23:58:41Z",
-            "title": "History Checks and Lost Dex",
+            "publishedAt": "2019-10-08T16:05:28Z",
+            "title": "Showdown at the Stock Exchange",
             "number": 14,
-            "id": "CfldRVNPXNk"
+            "id": "YGXoJ7KqXaQ"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/aDvCAxLpJp0/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/v_N2DfBsdos/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-02-18T00:01:05Z",
-            "title": "For the Hoard",
+            "publishedAt": "2019-10-15T16:13:17Z",
+            "title": "Hall of Heroes",
             "number": 15,
-            "id": "aDvCAxLpJp0"
+            "id": "v_N2DfBsdos"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/-Ihu3sOYxGs/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/6W-m2zmEvvw/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-02-24T23:58:59Z",
-            "title": "Treachery At Gramercy",
+            "publishedAt": "2019-10-22T16:17:54Z",
+            "title": "Times Squaremageddon",
             "number": 16,
-            "id": "-Ihu3sOYxGs"
+            "id": "6W-m2zmEvvw"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/6T6pUOq2br4/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/mpQ7hkuTf2A/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-03-04T00:04:40Z",
-            "title": "Two Sides of the Same Coin (Part 1)",
+            "publishedAt": "2019-10-29T16:00:52Z",
+            "title": "Times Squaremageddon Pt. 2",
             "number": 17,
-            "id": "6T6pUOq2br4"
+            "id": "mpQ7hkuTf2A"
           },
           {
             "thumbnails": {
-              "url": "https://i.ytimg.com/vi/2CfxlgkapJE/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Gbr9AGX58pE/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
-            "publishedAt": "2021-03-10T23:44:11Z",
-            "title": "Two Sides of the Same Coin (Part 2)",
+            "publishedAt": "2019-11-05T17:10:01Z",
+            "title": "Behind the Scenes: Brennan",
             "number": 18,
-            "id": "2CfxlgkapJE"
+            "id": "Gbr9AGX58pE"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/SmVgwnO4P28/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-05T17:10:01Z",
+            "title": "Behind the Scenes: Art Team",
+            "number": 19,
+            "id": "SmVgwnO4P28"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/BlqP6apErG8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-05T17:10:01Z",
+            "title": "Behind the Scenes: Editors",
+            "number": 20,
+            "id": "BlqP6apErG8"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/BDhea1lB4jk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-12T17:15:11Z",
+            "title": "Behind the Scenes: Emily",
+            "number": 21,
+            "id": "BDhea1lB4jk"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Cku2ZO43TaA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-12T17:15:11Z",
+            "title": "Behind the Scenes: Siobhan",
+            "number": 22,
+            "id": "Cku2ZO43TaA"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/g2EfECoV2nI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-12T17:15:11Z",
+            "title": "Behind the Scenes: Lou",
+            "number": 23,
+            "id": "g2EfECoV2nI"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/LYo8Tr9K0Eg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-19T17:15:07Z",
+            "title": "Behind the Scenes: Zac",
+            "number": 24,
+            "id": "LYo8Tr9K0Eg"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/Eb5wey1ZBgA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-19T17:14:45Z",
+            "title": "Behind the Scenes: Ally",
+            "number": 25,
+            "id": "Eb5wey1ZBgA"
+          },
+          {
+            "thumbnails": {
+              "url": "https://i.ytimg.com/vi/GtkWIOkOMIw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "publishedAt": "2019-11-19T17:14:57Z",
+            "title": "Behind the Scenes: Murph",
+            "number": 26,
+            "id": "GtkWIOkOMIw"
           }
         ]
       }
     }
   },
   {
-    "title": "Dimension 20: Leviathan",
+    "title": "Dimension 20 Leviathan",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/6oKn_w5R9Dk/maxresdefault.jpg",
       "width": 1280,
@@ -13808,7 +14043,7 @@
     }
   },
   {
-    "title": "Dimension 20: A Crown Of Candy",
+    "title": "Dimension 20 A Crown Of Candy",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/mA7BlfOsYng/maxresdefault.jpg",
       "width": 1280,
@@ -14013,7 +14248,7 @@
             },
             "publishedAt": "2020-08-19T23:01:35Z",
             "title": "Behind the Scenes",
-            "number": -1,
+            "number": -3,
             "id": "hdQKi3wf_zw"
           }
         ]
@@ -14139,7 +14374,7 @@
     }
   },
   {
-    "title": "Dimension 20: Tiny Heist",
+    "title": "Dimension 20 Tiny Heist",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/WUNnrvZNJyk/maxresdefault.jpg",
       "width": 1280,
@@ -14249,7 +14484,7 @@
             },
             "publishedAt": "2019-09-13T18:37:40Z",
             "title": "The Game Where Two People Are Secretly Stoned",
-            "number": -1,
+            "number": 1,
             "id": "ck1JW-_G2Yc"
           },
           {
@@ -14260,7 +14495,7 @@
             },
             "publishedAt": "2019-09-13T18:37:49Z",
             "title": "Way Too Stoned on Parents' Weekend",
-            "number": -1,
+            "number": 2,
             "id": "s5_JVmcDK5c"
           },
           {
@@ -14271,7 +14506,7 @@
             },
             "publishedAt": "2019-09-13T18:37:59Z",
             "title": "High In Another Country",
-            "number": -1,
+            "number": 3,
             "id": "a0nBDwBFPI4"
           },
           {
@@ -14416,7 +14651,7 @@
     }
   },
   {
-    "title": "TablePop Presents: MEGADUNGEON LIVE",
+    "title": "TablePop Presents MEGADUNGEON LIVE",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/dF7xGArgiSA/maxresdefault.jpg",
       "width": 1280,
@@ -14780,65 +15015,6 @@
     }
   },
   {
-    "title": "Fantasy High: Extra Credit",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/idvVx0aOOTE/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-Whduhknbbr1iwkZCnEj4Sa94-GES",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/idvVx0aOOTE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-18T23:11:12Z",
-            "title": "Wally and Gilear in the Morning",
-            "number": 1,
-            "id": "idvVx0aOOTE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/P12Bh6kIsDo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-18T23:11:12Z",
-            "title": "Parties Are Weird But Friendship Is Dope",
-            "number": 2,
-            "id": "P12Bh6kIsDo"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/OFzLTt9KvkM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-18T23:11:12Z",
-            "title": "Problem Players & Troublesome Tangents",
-            "number": 3,
-            "id": "OFzLTt9KvkM"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/jrMPTsPpChI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-18T23:11:12Z",
-            "title": "The Greatest Nat 20 Of All Time",
-            "number": 4,
-            "id": "jrMPTsPpChI"
-          }
-        ]
-      }
-    }
-  },
-  {
     "title": "The Rank Room",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/DYXEhEW-3mk/maxresdefault.jpg",
@@ -14857,7 +15033,7 @@
             },
             "publishedAt": "2019-09-18T19:37:55Z",
             "title": "What Is the Best Invention That Has Yet to Be Invented?",
-            "number": -1,
+            "number": 1,
             "id": "DYXEhEW-3mk"
           },
           {
@@ -15059,7 +15235,7 @@
             },
             "publishedAt": "2019-09-16T19:15:20Z",
             "title": "Trooper of the Week [Full Episode]",
-            "number": -1,
+            "number": 1,
             "id": "WbH_QVzRgy8"
           },
           {
@@ -15195,7 +15371,7 @@
             },
             "publishedAt": "2019-09-16T19:05:31Z",
             "title": "Precious Plum for President!",
-            "number": -1,
+            "number": 1,
             "id": "Myo_5KYx_YI"
           },
           {
@@ -15316,7 +15492,7 @@
             },
             "publishedAt": "2019-09-16T19:51:18Z",
             "title": "See Plum Run: Official Music Video",
-            "number": -1,
+            "number": -3,
             "id": "j6s4gg0KKFs"
           }
         ]
@@ -15342,7 +15518,7 @@
             },
             "publishedAt": "2019-09-13T20:57:24Z",
             "title": "Drawfee Presents CARTOON HELL [First Full Episode]",
-            "number": -1,
+            "number": 1,
             "id": "PLZZlILTF3M"
           },
           {
@@ -15408,7 +15584,7 @@
             },
             "publishedAt": "2019-09-13T20:57:54Z",
             "title": "Thicc Cyborgs (featuring Rekha)",
-            "number": -1,
+            "number": 7,
             "id": "BetBI4f6MpU"
           },
           {
@@ -15562,7 +15738,7 @@
             },
             "publishedAt": "2019-09-13T20:58:45Z",
             "title": "Artists Draw Rejected Toys",
-            "number": -1,
+            "number": 21,
             "id": "vvE7Yuk5lP8"
           },
           {
@@ -15729,308 +15905,7 @@
     }
   },
   {
-    "title": "Dimension 20: The Unsleeping City",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/MljQci1IM5E/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-WhduhkmJU5myEzM82EXNna99ykgC",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/MljQci1IM5E/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Start Spreading the News",
-            "number": 1,
-            "id": "MljQci1IM5E"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Dw_d4wBqL9c/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Mutant Santa Melee",
-            "number": 2,
-            "id": "Dw_d4wBqL9c"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/jqH9y97Ui3I/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Pigeon Plus Ones",
-            "number": 3,
-            "id": "jqH9y97Ui3I"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Q8JwkP_kSZE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Scramble in the Sewers",
-            "number": 4,
-            "id": "Q8JwkP_kSZE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/B_vp3eBd0bY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "A New York Wedding",
-            "number": 5,
-            "id": "B_vp3eBd0bY"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/hVepp_ZIsow/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "The War of Bugs and Rats",
-            "number": 6,
-            "id": "hVepp_ZIsow"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/gGAofBHh6xI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "We Need to Talk About Pete",
-            "number": 7,
-            "id": "gGAofBHh6xI"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/xEiV1g47knQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Subway Skirmish",
-            "number": 8,
-            "id": "xEiV1g47knQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Wdq0TbScLNY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Borough of Dreams",
-            "number": 9,
-            "id": "Wdq0TbScLNY"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/G7kRjdUier0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Panic at the Art Show",
-            "number": 10,
-            "id": "G7kRjdUier0"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/hFPUKQmWQ3M/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:11:29Z",
-            "title": "Home for the Holidays",
-            "number": 11,
-            "id": "hFPUKQmWQ3M"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Bvyhoy10d_k/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-24T16:16:12Z",
-            "title": "Broadway Brawl",
-            "number": 12,
-            "id": "Bvyhoy10d_k"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/AKly1A7McNA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-10-01T16:08:55Z",
-            "title": "Faeries and Feces",
-            "number": 13,
-            "id": "AKly1A7McNA"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/YGXoJ7KqXaQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-10-08T16:05:28Z",
-            "title": "Showdown at the Stock Exchange",
-            "number": 14,
-            "id": "YGXoJ7KqXaQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/v_N2DfBsdos/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-10-15T16:13:17Z",
-            "title": "Hall of Heroes",
-            "number": 15,
-            "id": "v_N2DfBsdos"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/6W-m2zmEvvw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-10-22T16:17:54Z",
-            "title": "Times Squaremageddon",
-            "number": 16,
-            "id": "6W-m2zmEvvw"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/mpQ7hkuTf2A/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-10-29T16:00:52Z",
-            "title": "Times Squaremageddon Pt. 2",
-            "number": 17,
-            "id": "mpQ7hkuTf2A"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Gbr9AGX58pE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-05T17:10:01Z",
-            "title": "Behind the Scenes: Brennan",
-            "number": 18,
-            "id": "Gbr9AGX58pE"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/SmVgwnO4P28/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-05T17:10:01Z",
-            "title": "Behind the Scenes: Art Team",
-            "number": 19,
-            "id": "SmVgwnO4P28"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/BlqP6apErG8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-05T17:10:01Z",
-            "title": "Behind the Scenes: Editors",
-            "number": 20,
-            "id": "BlqP6apErG8"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/BDhea1lB4jk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-12T17:15:11Z",
-            "title": "Behind the Scenes: Emily",
-            "number": 21,
-            "id": "BDhea1lB4jk"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Cku2ZO43TaA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-12T17:15:11Z",
-            "title": "Behind the Scenes: Siobhan",
-            "number": 22,
-            "id": "Cku2ZO43TaA"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/g2EfECoV2nI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-12T17:15:11Z",
-            "title": "Behind the Scenes: Lou",
-            "number": 23,
-            "id": "g2EfECoV2nI"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/LYo8Tr9K0Eg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-19T17:15:07Z",
-            "title": "Behind the Scenes: Zac",
-            "number": 24,
-            "id": "LYo8Tr9K0Eg"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Eb5wey1ZBgA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-19T17:14:45Z",
-            "title": "Behind the Scenes: Ally",
-            "number": 25,
-            "id": "Eb5wey1ZBgA"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/GtkWIOkOMIw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-11-19T17:14:57Z",
-            "title": "Behind the Scenes: Murph",
-            "number": 26,
-            "id": "GtkWIOkOMIw"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "title": "Dimension 20: Escape from the Bloodkeep",
+    "title": "Dimension 20 Escape from the Bloodkeep",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/gmbEkxuo6h0/maxresdefault.jpg",
       "width": 1280,
@@ -16122,242 +15997,7 @@
     }
   },
   {
-    "title": "Dimension 20: Fantasy High",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/1XkyFEho7qs/maxresdefault.jpg",
-      "width": 1280,
-      "height": 720
-    },
-    "season": {
-      "1": {
-        "id": "PLuKg-WhduhklSBUjoUJ0drkCEIHI6nXyf",
-        "episodes": [
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/1XkyFEho7qs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T17:47:43Z",
-            "title": "The Beginning Begins",
-            "number": 1,
-            "id": "1XkyFEho7qs"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/25pBWVz1Wss/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T18:00:56Z",
-            "title": "Clash of the Corn Cuties",
-            "number": 2,
-            "id": "25pBWVz1Wss"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/F_g4irmvMrk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T18:02:45Z",
-            "title": "After the Afterlife",
-            "number": 3,
-            "id": "F_g4irmvMrk"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/CZSDdkuXdyc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T18:05:03Z",
-            "title": "Rumble Road",
-            "number": 4,
-            "id": "CZSDdkuXdyc"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/3EyFDf7x2Ms/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T18:07:52Z",
-            "title": "The Pixie and the Palimpsest",
-            "number": 5,
-            "id": "3EyFDf7x2Ms"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/KLYjLBogtVI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T19:26:20Z",
-            "title": "Brawl at the Black Pit",
-            "number": 6,
-            "id": "KLYjLBogtVI"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/0MOxhXoQoS4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T18:10:21Z",
-            "title": "Graveyard of Good and Evil",
-            "number": 7,
-            "id": "0MOxhXoQoS4"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/o81-q6HW5yk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2021-11-09T18:12:52Z",
-            "title": "Havoc on the Half-Pipe",
-            "number": 8,
-            "id": "o81-q6HW5yk"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/wBEZ6DjAxxM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Dishing with a Demon",
-            "number": 9,
-            "id": "wBEZ6DjAxxM"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/CttbCSHBrg8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Battle of the Bloodrush Brethren",
-            "number": 10,
-            "id": "CttbCSHBrg8"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/_GJK9P2LVdU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Cool Kids, Cold Case",
-            "number": 11,
-            "id": "_GJK9P2LVdU"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/4ZYLxfOw7Dg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "The Sisterly Showdown",
-            "number": 12,
-            "id": "4ZYLxfOw7Dg"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/TuUMHEZoTuQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "First Kisses and Last Words",
-            "number": 13,
-            "id": "TuUMHEZoTuQ"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/yuyxI7l97Ds/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Arcade Ambush",
-            "number": 14,
-            "id": "yuyxI7l97Ds"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/R-dFwT3n3Rc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Family in Flames",
-            "number": 15,
-            "id": "R-dFwT3n3Rc"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/qsKAE8738aw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Prompocalypse",
-            "number": 16,
-            "id": "qsKAE8738aw"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/ayGtElwiNTo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-12T20:03:50Z",
-            "title": "Prompocalypse - Pt. 2",
-            "number": 17,
-            "id": "ayGtElwiNTo"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/-tasYql6FBY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-23T16:28:56Z",
-            "title": "Fantasy High: Behind the Scenes",
-            "number": 18,
-            "id": "-tasYql6FBY"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/-ulIYMA0sqg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-20T23:50:46Z",
-            "title": "Dimension 20 Live",
-            "number": -1,
-            "id": "-ulIYMA0sqg"
-          },
-          {
-            "thumbnails": {
-              "url": "https://i.ytimg.com/vi/Ekgd2ePymD8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "publishedAt": "2019-09-20T23:52:03Z",
-            "title": "Fantasy High LIVE at RTX Austin",
-            "number": 20,
-            "id": "Ekgd2ePymD8"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "title": "Kingpin Katie: The Web Series",
+    "title": "Kingpin Katie The Web Series",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/uvqgtnpuazs/maxresdefault.jpg",
       "width": 1280,
@@ -16673,7 +16313,7 @@
             },
             "publishedAt": "2019-09-11T18:51:25Z",
             "title": "Leeches, Exes, and Loans [Full Episode]",
-            "number": -1,
+            "number": 1,
             "id": "wzQDifGMnPE"
           },
           {
@@ -16831,7 +16471,7 @@
             },
             "publishedAt": "2019-09-10T21:59:37Z",
             "title": "The Gruesome Truth About Parasites [Full Episode]",
-            "number": -1,
+            "number": 1,
             "id": "3aZVgyUlSng"
           },
           {

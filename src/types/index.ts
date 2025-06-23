@@ -4,6 +4,14 @@ export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;
 };
 
+export enum EpisodeType {
+  Trailer = -2,
+  Extras = -3,
+  Unnumbered = -4,
+}
+
+export type EpisodeNumber = number | EpisodeType;
+
 export type Episode = {
   thumbnails: {
     url: string;
