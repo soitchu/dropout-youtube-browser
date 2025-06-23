@@ -13,6 +13,7 @@ import {
   SelectItem,
 } from "@heroui/react";
 
+import showJSON from "./shows.json";
 import { EpisodeType, type Show, type ShowArray } from "./types";
 import ShowCard from "./components/ShowCard";
 import Filters, { FilterType } from "./components/Filters";
@@ -61,36 +62,33 @@ function App() {
   useEffect(() => {
     if (shows) return;
 
-    fetch("/shows.json")
-      .then((response) => response.json())
-      .then((response: ShowArray) => {
-        response.forEach((show) => {
-          const seasons = Object.keys(show.season);
-          const lastSeason = seasons[seasons.length - 1] as unknown as number;
-          const episodes = show.season[lastSeason].episodes;
-          const lastEpisode = episodes[episodes.length - 1];
+    console.log(showJSON);
 
-          show.lastUpdatedAt = new Date(lastEpisode.publishedAt);
-        });
+    const response = showJSON as ShowArray;
+    response.forEach((show) => {
+      const seasons = Object.keys(show.season);
+      const lastSeason = seasons[seasons.length - 1] as unknown as number;
+      const episodes = show.season[lastSeason].episodes;
+      const lastEpisode = episodes[episodes.length - 1];
 
-        response.sort((a, b) => {
-          return (
-            (b.lastUpdatedAt?.getTime() ?? 0) -
-            (a.lastUpdatedAt?.getTime() ?? 0)
-          );
-        });
+      show.lastUpdatedAt = new Date(lastEpisode.publishedAt);
+    });
 
-        const index = new Fuse(response, {
-          keys: ["title"],
-          isCaseSensitive: false,
-        });
+    response.sort((a, b) => {
+      return (
+        (b.lastUpdatedAt?.getTime() ?? 0) - (a.lastUpdatedAt?.getTime() ?? 0)
+      );
+    });
 
-        setSearchIndex(index);
-        setShows(response);
-        setSearchResults(response);
-        updateShowModal(response);
-      })
-      .catch(console.error);
+    const index = new Fuse(response, {
+      keys: ["title"],
+      isCaseSensitive: false,
+    });
+
+    setSearchIndex(index);
+    setShows(response);
+    setSearchResults(response);
+    updateShowModal(response);
   }, []);
 
   useEffect(() => {
