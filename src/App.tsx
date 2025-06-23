@@ -251,7 +251,7 @@ function App() {
               orientation="horizontal"
               size={50}
             >
-              {favouriteShows.reverse().map((title) => {
+              {[...favouriteShows].reverse().map((title) => {
                 const show = shows?.find((s) => s.title === title);
                 if (!show) return null;
 
