@@ -1,6 +1,6 @@
-import { useMemo } from "react";
 import type { Episode, Show } from "../types";
 
+import { useMemo } from "react";
 import { Card, CardBody, Image, CardFooter, PressEvent } from "@heroui/react";
 
 export default function ShowCard({

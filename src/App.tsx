@@ -1,11 +1,8 @@
 /* eslint-disable prettier/prettier */
-import { EpisodeType, type Show, type ShowArray } from "./types";
-
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import { Input } from "@heroui/input";
 import {
-  Chip,
   Image,
   Modal,
   ModalBody,
@@ -15,6 +12,7 @@ import {
   SelectItem,
 } from "@heroui/react";
 
+import { EpisodeType, type Show, type ShowArray } from "./types";
 import ShowCard from "./components/ShowCard";
 import Filters, { FilterType } from "./components/Filters";
 
@@ -108,7 +106,7 @@ function App() {
   };
 
   const updateShowModal = useCallback(
-    (_shows?: ShowArray) => {
+    (_shows?: ShowArray | Event) => {
       if (!shows && !_shows) return;
       const currentShows = (shows || _shows) as ShowArray;
       const searchParams = new URLSearchParams(location.search);
@@ -288,36 +286,36 @@ function App() {
                     />
                   </div>
 
-                  {modalShow.show.season[
-                    modalShow.selectedSeason
-                  ]?.episodes.filter((ep) => {
-                    if(ep.number === EpisodeType.Extras) {
-                      return filters.includes(FilterType.Extras);
-                    }
+                  {modalShow.show.season[modalShow.selectedSeason]?.episodes
+                    .filter((ep) => {
+                      if (ep.number === EpisodeType.Extras) {
+                        return filters.includes(FilterType.Extras);
+                      }
 
-                    if(ep.number === EpisodeType.Trailer) {
-                      return filters.includes(FilterType.Trailer);
-                    }
+                      if (ep.number === EpisodeType.Trailer) {
+                        return filters.includes(FilterType.Trailer);
+                      }
 
-                    if(ep.number === EpisodeType.Unnumbered) {
-                      return filters.includes(FilterType.Unnumbered);
-                    }
+                      if (ep.number === EpisodeType.Unnumbered) {
+                        return filters.includes(FilterType.Unnumbered);
+                      }
 
-                    return filters.includes(FilterType.Numbered);
-                  }).map((ep) => {
-                    return (
-                      <ShowCard
-                        key={ep.id}
-                        show={ep}
-                        onClick={() => {
-                          window.open(
-                            `https://www.youtube.com/watch?v=${ep.id}`,
-                            "_blank"
-                          );
-                        }}
-                      />
-                    );
-                  })}
+                      return filters.includes(FilterType.Numbered);
+                    })
+                    .map((ep) => {
+                      return (
+                        <ShowCard
+                          key={ep.id}
+                          show={ep}
+                          onClick={() => {
+                            window.open(
+                              `https://www.youtube.com/watch?v=${ep.id}`,
+                              "_blank"
+                            );
+                          }}
+                        />
+                      );
+                    })}
                 </ModalBody>
               </>
             )}
