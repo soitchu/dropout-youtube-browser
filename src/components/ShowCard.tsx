@@ -183,84 +183,84 @@ export default function ShowCard({
               ))}
           </Button>
           {!isShow && (
-            <Button className="absolute top-2 right-[60px] bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md min-w-[45px]">
-              <Dropdown>
-                <DropdownTrigger>
+            <Dropdown>
+              <DropdownTrigger>
+                <Button className="absolute top-2 right-[60px] bg-[#feea3b] text-black text-xs p-2 z-20 rounded-xl shadow-md min-w-[45px]">
                   <MoreVertIcon />
-                </DropdownTrigger>
-                <DropdownMenu
-                  onAction={async (key) => {
-                    try {
-                      switch (key) {
-                        case "toggleWatched":
-                          await toggleWatched();
-                          break;
-                        case "markWatchedUntil":
-                        case "markUnwatchedUntil":
-                          const seasons = epShow?.season || {};
-                          const epList: string[] = [];
-                          const currentEp = show as Episode;
+                </Button>
+              </DropdownTrigger>
+              <DropdownMenu
+                onAction={async (key) => {
+                  try {
+                    switch (key) {
+                      case "toggleWatched":
+                        await toggleWatched();
+                        break;
+                      case "markWatchedUntil":
+                      case "markUnwatchedUntil":
+                        const seasons = epShow?.season || {};
+                        const epList: string[] = [];
+                        const currentEp = show as Episode;
 
-                          let hasSeenCurrent = false;
-                          for (const season in seasons) {
-                            const episodes = seasons[season].episodes;
-                            for (const ep of episodes) {
-                              epList.push(ep.id);
-                              if (ep.id === currentEp.id) {
-                                hasSeenCurrent = true;
-                                break;
-                              }
-                            }
-
-                            if (hasSeenCurrent) {
+                        let hasSeenCurrent = false;
+                        for (const season in seasons) {
+                          const episodes = seasons[season].episodes;
+                          for (const ep of episodes) {
+                            epList.push(ep.id);
+                            if (ep.id === currentEp.id) {
+                              hasSeenCurrent = true;
                               break;
                             }
                           }
 
-                          if (key === "markWatchedUntil") {
-                            await DropoutStorage.addBulkWatchedEpisodes(
-                              epShow!.title,
-                              epList
-                            );
-
-                            for (const epId of epList) {
-                              watchedEpisodes.add(epId);
-                            }
-
-                            setWatchedEpisodes(new Set(watchedEpisodes));
-                          } else {
-                            await DropoutStorage.removeBulkWatchedEpisodes(
-                              epShow!.title,
-                              epList
-                            );
-
-                            for (const epId of epList) {
-                              watchedEpisodes.delete(epId);
-                            }
-
-                            setWatchedEpisodes(new Set(watchedEpisodes));
+                          if (hasSeenCurrent) {
+                            break;
                           }
-                          break;
-                      }
-                    } catch (error) {
-                      console.error("Error in dropdown action:", error);
+                        }
+
+                        if (key === "markWatchedUntil") {
+                          await DropoutStorage.addBulkWatchedEpisodes(
+                            epShow!.title,
+                            epList
+                          );
+
+                          for (const epId of epList) {
+                            watchedEpisodes.add(epId);
+                          }
+
+                          setWatchedEpisodes(new Set(watchedEpisodes));
+                        } else {
+                          await DropoutStorage.removeBulkWatchedEpisodes(
+                            epShow!.title,
+                            epList
+                          );
+
+                          for (const epId of epList) {
+                            watchedEpisodes.delete(epId);
+                          }
+
+                          setWatchedEpisodes(new Set(watchedEpisodes));
+                        }
+                        break;
                     }
-                  }}
-                >
-                  <DropdownItem key="toggleWatched">
-                    Mark as {hasBeenWatched ? "un" : ""}watched
-                  </DropdownItem>
-                  <DropdownItem key="markWatchedUntil">
-                    Mark as watched <br />
-                    until this episode
-                  </DropdownItem>
-                  <DropdownItem key="markUnwatchedUntil">
-                    Mark as unwatched <br />
-                    until this episode
-                  </DropdownItem>
-                </DropdownMenu>
-              </Dropdown>
-            </Button>
+                  } catch (error) {
+                    console.error("Error in dropdown action:", error);
+                  }
+                }}
+              >
+                <DropdownItem key="toggleWatched">
+                  Mark as {hasBeenWatched ? "un" : ""}watched
+                </DropdownItem>
+                <DropdownItem key="markWatchedUntil">
+                  Mark as watched <br />
+                  until this episode
+                </DropdownItem>
+                <DropdownItem key="markUnwatchedUntil">
+                  Mark as unwatched <br />
+                  until this episode
+                </DropdownItem>
+              </DropdownMenu>
+            </Dropdown>
           )}
           )
           <img
