@@ -6,6 +6,7 @@ Browsing Dropout shows on YouTube can be a hassle because of how YouTube's searc
 - Favourite shows to easily find them later
 - Filter episodes by category
 - Mark episodes as watched
+- The website can be installed as a Progressive Web App (PWA) on your device
 
 ## Limitations
 Everything is stored on your browser, so your data doesn't sync automatically across devices. Additionally, linked YouTube videos open in a new tab and always start from the beginning due to YouTube’s playback behavior, even if you've already watched part of the episode.
