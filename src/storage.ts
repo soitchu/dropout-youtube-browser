@@ -6,9 +6,14 @@ interface Favourites {
   addedAt: number;
 }
 
+interface SelectedSeason {
+  showName: string;
+  season: number;
+}
+
 interface Settings {
   key: string;
-  value: string;
+  value: unknown;
 }
 
 interface WatchedEpisodes {
@@ -18,12 +23,14 @@ interface WatchedEpisodes {
 
 export const db = new Dexie("dropout_shows") as Dexie & {
   favourites: EntityTable<Favourites, "showName">;
+  selectedSeason: EntityTable<SelectedSeason, "showName">;
   settings: EntityTable<Settings, "key">;
   watchedEpisodes: EntityTable<WatchedEpisodes, "showName">;
 };
 
 db.version(1).stores({
   favourites: "showName,addedAt",
+  selectedSeason: "showName",
   settings: "key",
   watchedEpisodes: "[showName+episodeId]",
 });
@@ -46,13 +53,30 @@ class DropoutStorage {
     );
   }
 
-  static async addSetting(key: string, value: string): Promise<void> {
-    await db.settings.put({ key, value });
+  static async addSelectedSeason(
+    showName: string,
+    season: number
+  ): Promise<void> {
+    await db.selectedSeason.put({
+      showName,
+      season,
+    });
   }
 
-  static async getSetting(key: string): Promise<string | undefined> {
+  static async getSelectedSeason(
+    showName: string
+  ): Promise<string> {
+    const show = await db.selectedSeason.get(showName);
+    return show?.season.toString() ?? "";
+  }
+
+  static async getSettings(key: string): Promise<unknown> {
     const setting = await db.settings.get(key);
     return setting?.value;
+  }
+
+  static async setSettings(key: string, value: unknown): Promise<void> {
+    await db.settings.put({ key, value });
   }
 
   static async addWatchedEpisode(

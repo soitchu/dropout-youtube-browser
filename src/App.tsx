@@ -105,10 +105,10 @@ function App() {
     localStorage.setItem("filters", JSON.stringify(filters));
   }, [filters]);
 
-  const openShowModal = function (metadata: Show | undefined) {
+  const openShowModal = async function (metadata: Show | undefined) {
     if (metadata) {
       const defaultSeason = parseInt(
-        localStorage.getItem(metadata?.title ?? "") ?? ""
+        await DropoutStorage.getSelectedSeason(metadata.title)
       );
       let seasonNumber = parseInt(Object.keys(metadata.season)[0]);
 
@@ -391,18 +391,24 @@ function App() {
                     <div className="mt-5" style={{ width: "300px" }}>
                       <Select
                         defaultSelectedKeys={modalShow.selectedSeason.toString()}
-                        onSelectionChange={(key) => {
+                        onSelectionChange={async (key) => {
                           const seasonNumber = [...(key as Set<string>)][0];
 
-                          localStorage.setItem(
-                            modalShow.show.title,
-                            seasonNumber.toString()
-                          );
-
-                          setModalShow({
-                            selectedSeason: parseInt(seasonNumber),
-                            show: modalShow.show,
-                          });
+                          try {
+                            await DropoutStorage.addSelectedSeason(
+                              modalShow.show.title,
+                              parseInt(seasonNumber)
+                            );
+                            setModalShow({
+                              selectedSeason: parseInt(seasonNumber),
+                              show: modalShow.show,
+                            });
+                          } catch (error) {
+                            console.error(
+                              "Failed to save selected season:",
+                              error
+                            );
+                          }
                         }}
                       >
                         {Object.entries(modalShow.show.season).map(
