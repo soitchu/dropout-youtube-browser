@@ -4,14 +4,14 @@
   "icons": [
     {
       "purpose": "maskable",
-      "sizes": "228x228",
-      "src": "dropout.png",
+      "sizes": "1080x1080",
+      "src": "full_icon.png",
       "type": "image/png"
     },
     {
       "purpose": "any",
-      "sizes": "228x228",
-      "src": "dropout.png",
+      "sizes": "1080x1080",
+      "src": "full_icon.png",
       "type": "image/png"
     }
   ],
