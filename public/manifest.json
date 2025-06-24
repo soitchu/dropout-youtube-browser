@@ -19,8 +19,8 @@
   "display": "fullscreen",
   "dir": "auto",
   "lang": "en-US",
-  "name": "Dropout Youtube Browser",
-  "short_name": "Droupout",
-  "start_url": "https://soitchu.github.io/dropout-youtube-browser/",
-  "scope": "https://soitchu.github.io/dropout-youtube-browser/"
+  "name": "Unofficial Dropout Youtube Browser",
+  "short_name": "Unofficial Droupout YT Browser",
+  "start_url": "https://unofficial-soitchu.github.io/dropout-youtube-browser/",
+  "scope": "https://unofficial-soitchu.github.io/dropout-youtube-browser/"
 }
