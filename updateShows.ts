@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 import type { ShowMap } from "./src/types/index";
 
 import fs, { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
+import 'dotenv/config'
 
 const API_KEY = process.env.YOUTUBE_API_KEY || "";
 const CHANNEL_ID = "UCPDXXXJj9nax0fr0Wfc048g";
@@ -136,14 +138,14 @@ async function savePlaylistData() {
 
   writeFileSync(
     join(__dirname, dataFolder, "playlists", "index.json"),
-    JSON.stringify(playlists, null, 2),
+    JSON.stringify(playlists, null, 2)
   );
 }
 
 async function getPlaylistVideos(
   playlistId: string,
   pageToken = "",
-  allVideos: any[] = [],
+  allVideos: any[] = []
 ) {
   const params = new URLSearchParams({
     key: API_KEY,
@@ -154,7 +156,7 @@ async function getPlaylistVideos(
   });
 
   const res = await fetch(
-    `https://www.googleapis.com/youtube/v3/playlistItems?${params}`,
+    `https://www.googleapis.com/youtube/v3/playlistItems?${params}`
   );
   const data = await res.json();
 
@@ -174,8 +176,8 @@ async function getAllPlaylistsVideos() {
   const playlists = JSON.parse(
     fs.readFileSync(
       join(__dirname, dataFolder, "playlists", "index.json"),
-      "utf-8",
-    ),
+      "utf-8"
+    )
   );
 
   await Promise.all(
@@ -183,14 +185,14 @@ async function getAllPlaylistsVideos() {
       const videos = await getPlaylistVideos(playlist.id);
 
       console.log(
-        `Fetched ${videos.length} videos for playlist: ${playlist.snippet.title}`,
+        `Fetched ${videos.length} videos for playlist: ${playlist.snippet.title}`
       );
 
       writeFileSync(
         join(__dirname, dataFolder, "playlists", `${playlist.id}.json`),
-        JSON.stringify(videos, null, 2),
+        JSON.stringify(videos, null, 2)
       );
-    }),
+    })
   );
 }
 
@@ -283,8 +285,8 @@ function getEpisodes(playlistData: any) {
 async function getVideoDetails(videoIds: string[]) {
   const response = await fetch(
     `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics,contentDetails&id=${videoIds.join(
-      ",",
-    )}&key=${API_KEY}`,
+      ","
+    )}&key=${API_KEY}`
   );
 
   const data = await response.json();
@@ -304,8 +306,8 @@ async function extractShowInfo() {
   const playlists = JSON.parse(
     fs.readFileSync(
       join(__dirname, dataFolder, "playlists", "index.json"),
-      "utf-8",
-    ),
+      "utf-8"
+    )
   );
 
   const shows: ShowMap = {};
@@ -369,8 +371,8 @@ async function extractShowInfo() {
     const playlistData = JSON.parse(
       readFileSync(
         join(__dirname, dataFolder, "playlists", `${id}.json`),
-        "utf-8",
-      ),
+        "utf-8"
+      )
     );
 
     if (!lowercaseTitle.includes("(full episodes)")) continue;
@@ -478,7 +480,7 @@ async function extractShowInfo() {
         if (ep.number >= 10) {
           ep.number += 1;
         }
-      },
+      }
     );
 
     const ep = shows["Dimension 20's Adventuring Party"].season[
@@ -494,13 +496,25 @@ async function extractShowInfo() {
     shows["Dimension 20's Adventuring Party"].season["1"].episodes.sort(
       (a, b) => {
         return a.number - b.number;
-      },
+      }
     );
+  }
+
+  if (shows["Adventuring Academy"]) {
+    const adventuringAcademy = shows["Adventuring Academy"];
+
+    adventuringAcademy.season["2"].episodes.sort((a, b) => {
+      return a.number - b.number;
+    });
+
+    adventuringAcademy.season["3"].episodes.sort((a, b) => {
+      return a.number - b.number;
+    });
   }
 
   writeFileSync(
     join(__dirname, "src", "shows.json"),
-    JSON.stringify(showArray, null, 2),
+    JSON.stringify(showArray, null, 2)
   );
 }
 
