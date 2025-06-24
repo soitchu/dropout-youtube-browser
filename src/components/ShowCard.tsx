@@ -262,7 +262,6 @@ export default function ShowCard({
               </DropdownMenu>
             </Dropdown>
           )}
-          )
           <img
             alt={show.title}
             className="w-full object-cover h-[140px] drop-shadow-sm"
