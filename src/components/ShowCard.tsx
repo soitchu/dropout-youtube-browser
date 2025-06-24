@@ -252,12 +252,10 @@ export default function ShowCard({
                   Mark as {hasBeenWatched ? "un" : ""}watched
                 </DropdownItem>
                 <DropdownItem key="markWatchedUntil">
-                  Mark as watched <br />
-                  until this episode
+                  Mark previous episodes <br/> as watched
                 </DropdownItem>
                 <DropdownItem key="markUnwatchedUntil">
-                  Mark as unwatched <br />
-                  until this episode
+                  Mark previous episodes <br/> as unwatched
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
